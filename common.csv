@@ -1,0 +1,3 @@
+term,label,description,domain,range
+Person,person,"""A term to define persons in the RO namespace""",,
+fullName,name,"""name of a Person""",Person,string
