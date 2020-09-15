@@ -7,7 +7,8 @@ This way, the RO-crate community can ellaborate vocabularies in a collaborative 
 This repository works in a first-come, first-serve basis. To 
 
 1) Fork this repository
-2) Add your own terms. Please make sure that each term has a label, definition and a domain and range if you are defining a property. If you create your own folder, please add a readme file stating the scope and maintainer of those tersm
+2) Add a new folder for your namespace. Add a short README.md file with your name/project.
+3) (Optionally) Add your own terms. Please make sure that each term has a label, definition and a domain and range if you are defining a property. If you create your own folder, please add a readme file stating the scope and maintainer of those tersm
 3) Open a pull request 
 
 A maintainer from ro-terms will assess and merge the changes as soon as possible
