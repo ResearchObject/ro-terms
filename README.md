@@ -1,17 +1,22 @@
 # ro-terms
 The purpose of this repository is to allow RO-crate users to create their own RO terms without having to create a new namespace, ontologies, etc.
 
-This way, the RO-crate community can ellaborate vocabularies in a collaborative manner. Users may collaborate to a common vocabulary (common) or create their own terms.
+This way, the RO-crate community can ellaborate vocabularies in a collaborative manner. Users may collaborate to a common vocabulary (vocabulary.csv) or create their own terms.
+
+RO crates use the following namespace: 
+
+`https://w3id.org/ro/terms/YOUR_NAMESPACE`
+
+The namespace for the common terms is: 
+
+`https://w3id.org/ro/terms#`
 
 ## Contribution guidelines
-This repository works in a first-come, first-serve basis. To 
+This repository works in a first-come, first-serve basis. To add your own terms, simply:
 
-1) Fork this repository
-2) Add a new folder for your namespace. Add a short README.md file with your name/project.
-3) (Optionally) Add your own terms. Please make sure that each term has a label, definition and a domain and range if you are defining a property. If you create your own folder, please add a readme file stating the scope and maintainer of those tersm
-3) Open a pull request 
-
-A maintainer from ro-terms will assess and merge the changes as soon as possible
+1) Fork this repository.
+2) Add a new folder to reserve your own namespace. Add a `vocabulary.csv` file with your terms and a short README.md file with your name/project and who the maintainer is. For an example, you can see the `example` folder. If you just have a few terms, you can add them to the `common` namespace (just edit the `vocabulary.csv` file at the root level). When adding your terms, please make sure that each term has a label, type, definition and a domain and range if you are defining a property. 
+3) Open a pull request and a maintainer from ro-terms will assess and merge the changes as soon as possible.
 
 ## Why are terms collected in a CSV?
 We want to quickly allow contributors to be able to understand and explore existing terms and their definitions. From the CSV we can easily create machine-readable versions of the vocabualry.

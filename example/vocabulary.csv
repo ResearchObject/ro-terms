@@ -1,0 +1,3 @@
+term,type,label,description,domain,range
+Book,Class,Book,"""A term to define books in the example namespace""",,
+title,DataProperty,title,"""Title of a book""",Book,string
