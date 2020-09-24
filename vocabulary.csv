@@ -1,4 +1,4 @@
 term,type,label,description,domain,range
 Person,Class,person,"""A term to define persons in the RO namespace""",,
-fullName,DataProperty,name,"""Name of a Person""",Person,string
-friend_of,ObjecProperty,friend of,"""Property to indicate that a person is friend of another person""",Person,Person
+fullName,Property,name,"""Name of a Person""",Person,string
+friend_of,Property,friend of,"""Property to indicate that a person is friend of another person""",Person,Person
