@@ -1,0 +1,17 @@
+term,type,label,description,domain,range
+Test,Class,Test,A test suite for a scientific workflow,,
+Instance,Class,Instance,A specific instance of a test suite,,
+Service,Class,Service,A Continuous Integration service where tests can be run,,
+Engine,Class,Engine,A workflow testing engine,,
+Definition,Class,Definition,A test definition (engine and configuration),,
+test,Property,test,Test suites for a workflow,Test,Test
+instance,Property,instance,Instances of a test suite,Test,Instance
+service,Property,service,Service where the test is run,Test,Service
+type,Property,type,"A service type, e.g., “jenkins”",Test,string
+url,Property,url,The service’s URL,Test,string
+resource,Property,resource,Relative URL of the test project on the service,Test,string
+definition,Property,definition,Metadata describing how to run the test,Test,Definition
+test_engine,Property,test_engine,The test engine to be used for this test suite,Test,Engine
+type,Property,type,"The test engine type this suite expects, e.g., “planemo”",Test,string
+version,Property,version,"The test engine version this suite expects, e.g., “>=0.70”",Test,string
+path,Property,path,Path to the engine configuration for this test suite,Test,string
