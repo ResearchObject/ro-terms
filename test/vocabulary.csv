@@ -1,9 +1,9 @@
 term,type,label,description,domain,range
-TestSuite,Class,TestSuite,A test suite for a computational workflow,,
-TestInstance,Class,TestInstance,A specific instance of a test suite,,
-TestService,Class,TestService,A software service where tests can be run,,
-TestDefinition,Class,TestDefinition,A set of metadata that describes how to run the test,,
+TestSuite,Class,test suite,A test suite for a computational workflow,,
+TestInstance,Class,test instance,A specific instance of a test suite,,
+TestService,Class,test service,A software service where tests can be run,,
+TestDefinition,Class,test definition,A set of metadata that describes how to run the test,,
 instance,Property,instance,Instances of a test suite,TestSuite,TestInstance
-runsOn,Property,runsOn,Service where the test instance is executed,TestInstance,TestService
+runsOn,Property,runs on,Service where the test instance is executed,TestInstance,TestService
 resource,Property,resource,Relative URL of the test project on the service,TestService,string
 definition,Property,definition,Metadata describing how to run the test,TestSuite,TestDefinition
