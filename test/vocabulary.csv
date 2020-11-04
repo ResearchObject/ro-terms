@@ -1,6 +1,6 @@
 term,type,label,description,domain,range
-TestSuite,Class,test suite,A test suite for a computational workflow,,
-TestInstance,Class,test instance,A specific instance of a test suite,,
+TestSuite,Class,test suite,A set of tests for a computational workflow,,
+TestInstance,Class,test instance,A specific project to execute a test suite on a test service,,
 TestService,Class,test service,A software service where tests can be run,,
 TestDefinition,Class,test definition,A set of metadata that describes how to run the test,,
 instance,Property,instance,Instances of a test suite,TestSuite,TestInstance
