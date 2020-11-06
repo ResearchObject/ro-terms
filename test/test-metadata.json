@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "TestSuite": "https://w3id.org/ro/terms/test#TestSuite",
+            "TestInstance": "https://w3id.org/ro/terms/test#TestInstance",
+            "TestService": "https://w3id.org/ro/terms/test#TestService",
+            "TestDefinition": "https://w3id.org/ro/terms/test#TestDefinition",
+            "instance": "https://w3id.org/ro/terms/test#instance",
+            "runsOn": "https://w3id.org/ro/terms/test#runsOn",
+            "resource": "https://w3id.org/ro/terms/test#resource",
+            "definition": "https://w3id.org/ro/terms/test#definition"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "#test1",
+            "name": "test1",
+            "@type": "TestSuite",
+            "instance": [
+                {"@id": "#test1_1"},
+                {"@id": "#test1_2"}
+            ],
+            "definition": {
+                "@id": "test2/someworkflow-test.yml",
+                "@type": "TestDefinition",
+                "conformsTo": {"@id": "#planemo"}
+            }
+        },
+        {
+            "@id": "#test1_1",
+            "name": "test1_1",
+            "@type": "TestInstance",
+            "runsOn": {"@id": "#jenkins"},
+            "url": "http://example.org/jenkins",
+            "resource": "job/tests/"
+        },
+        {
+            "@id": "#test1_2",
+            "name": "test1_2",
+            "@type": "TestInstance",
+            "runsOn": {"@id": "#travis"},
+            "url": "https://example.org/travis",
+            "resource": "github/acme/foobar/builds/"
+        },
+        {
+            "@id": "#jenkins",
+            "@type": "TestService",
+            "name": "Jenkins",
+            "url": {"@id": "https://www.jenkins.io"}
+        },
+        {
+            "@id": "#travis",
+            "@type": "TestService",
+            "name": "Travis CI",
+            "url": {"@id": "https://travis-ci.org"}
+        },
+        {
+            "@id": "#planemo",
+            "@type": "SoftwareApplication",
+            "name": "Planemo",
+            "url": {"@id": "https://github.com/galaxyproject/planemo"},
+            "softwareVersion": ">=0.70"
+        }
+    ]
+}
