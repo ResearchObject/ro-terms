@@ -32,7 +32,10 @@ def main(args):
         raise RuntimeError(f"{vocab_path} not found")
     context = build_context(ns_dir.name, vocab_path,
                             ro_crate_version=args.ro_crate_version)
-    print(json.dumps(context, indent=4, sort_keys=False))
+    if not args.output:
+        args.output = ns_dir / "context.json"
+    with open(args.output, "wt", encoding="utf8") as f:
+        json.dump(context, f, ensure_ascii=False, indent=4, sort_keys=False)
 
 
 if __name__ == "__main__":
@@ -40,4 +43,5 @@ if __name__ == "__main__":
     parser.add_argument("ns_dir", metavar="NAMESPACE", help="namespace dir")
     parser.add_argument("-v", "--ro-crate-version", metavar="string",
                         default=RO_CRATE_VERSION, help="RO-Crate version")
+    parser.add_argument('-o', '--output', metavar="FILE")
     main(parser.parse_args(sys.argv[1:]))
