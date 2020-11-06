@@ -11,6 +11,14 @@ The namespace for the common terms is:
 
 `https://w3id.org/ro/terms#`
 
+To download the terms in CSV you can do:
+
+`curl -L https://w3id.org/ro/terms/test`
+
+And if you want them in json-ld:
+
+`curl -H "accept:application/ld+json" -L https://w3id.org/ro/terms/test > context.json`
+
 ## Contribution guidelines
 This repository works in a first-come, first-serve basis. To add your own terms, simply:
 
