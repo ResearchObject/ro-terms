@@ -3,7 +3,11 @@ TestSuite,Class,test suite,A set of tests for a computational workflow,,
 TestInstance,Class,test instance,A specific project to execute a test suite on a test service,,
 TestService,Class,test service,A software service where tests can be run,,
 TestDefinition,Class,test definition,A set of metadata that describes how to run the test,,
+PlanemoEngine,Class,Planemo engine,https://github.com/galaxyproject/planemo,,
+JenkinsService,Class,Jenkins service,https://www.jenkins.io,,
+TravisService,Class,Travis service,https://travis-ci.com,,
 instance,Property,instance,Instances of a test suite,TestSuite,TestInstance
 runsOn,Property,runs on,Service where the test instance is executed,TestInstance,TestService
 resource,Property,resource,Relative URL of the test project on the service,TestService,string
 definition,Property,definition,Metadata describing how to run the test,TestSuite,TestDefinition
+engineVersion,Property,engine version,The software version of the application used to run tests,TestDefinition,string

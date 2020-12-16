@@ -1,10 +1,8 @@
 ### Test namespace
 
-**WORK IN PROGRESS**
+A namespace for workflow testing metadata.
 
-An example namespace for workflow testing metadata.
-
-See https://github.com/crs4/life_monitor/wiki/Test-Metadata-Draft-Spec.
+See https://github.com/crs4/life_monitor/wiki/Workflow-Testing-RO-Crate.
 
 Maintainer: 
 - Simone Leo (@simleo)
