@@ -1,8 +1,6 @@
 ### Test namespace
 
-A namespace for workflow testing metadata.
-
-See https://github.com/crs4/life_monitor/wiki/Workflow-Testing-RO-Crate.
+A namespace for [workflow testing metadata](https://crs4.github.io/life_monitor/workflow_testing_ro_crate).
 
 Maintainer: 
 - Simone Leo (@simleo)
