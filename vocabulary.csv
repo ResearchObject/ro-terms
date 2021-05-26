@@ -2,3 +2,4 @@ term,type,label,description,domain,range
 Person,Class,person,"""A term to define persons in the RO namespace""",,
 fullName,Property,name,"""Name of a Person""",Person,string
 friend_of,Property,friend of,"""Property to indicate that a person is friend of another person""",Person,Person
+sdConformsTo,Property,structured data conforms to,"""The profile this entity's structured metadata markup (e.g. the JSON-LD describing a PDF) conforms to.""",Thing,CreativeWork
