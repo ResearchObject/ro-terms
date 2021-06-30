@@ -2,7 +2,7 @@ term,type,label,description,domain,range
 Specimen,Class,Specimen,"""A (typically) physical specimen, for instance a butterfly or a map""",,
 SpecimenRecord,Class,Book,"""Authorative digital specimen record""",,
 authoritative,Property,title,"""Authorative digital specimen record""",Specimen,SpecimenRecord
-modified,Property,modified,"""Date this digital specimen record was last modified"""
+modified,Property,modified,"""Date this digital specimen record was last modified""",SpecimenRecord,DateTime
 midsLevel,Property,MIDS level,"""Level according to Minimum Information about a Digital Specimen, see https://github.com/tdwg/mids""",SpecimenRecord,Integer
 physicalSpecimenId,Property,physical specimen ID,"""Identifier for the physical specimen. The identifier might not be globally unique.""",SpecimenRecord,Text
 institution,Property,title,"""Institution holding the PHYSICAL specimen – identifier should be a https://ror.org/ identifier""",SpecimenRecord,Organization
