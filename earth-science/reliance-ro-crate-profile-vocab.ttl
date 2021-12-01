@@ -1,0 +1,251 @@
+@prefix : <https://w3id.org/ro/terms/earth-science/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix stat: <http://data.europa.eu/m8g/> .
+@prefix schema: <https://schema.org/> .
+@prefix af-inspire:	<http://inspire.ec.europa.eu/schemas/af/3.0#> .
+@prefix act-inspire:	<http://inspire.ec.europa.eu/schemas/act-core/3.0#> .
+@prefix foodie: <http://foodie-cloud.com/model/foodie#> .
+@prefix saref4agri: <https://w3id.org/def/saref4agri#> .
+@prefix common: <http://portele.de/ont/inspire/baseInspire#> .
+@prefix fiware: <https://uri.fiware.org/ns/data-models#> .
+@prefix iso19109: <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#> .
+@prefix iso19150-2: <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#> .
+@prefix iso19103: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix saref: <https://w3id.org/saref#> .
+@prefix reliance: <https://w3id.org/ro/terms/earth-science/> .
+@base <https://w3id.org/ro/terms/earth-science/> .
+
+<https://w3id.org/ro/terms/earth-science> rdf:type owl:Ontology ;
+                            dct:creator [ schema:affiliation [ foaf:name "OEG-UPM"
+                                                             ] ;
+                                          rdfs:seeAlso <http://orcid.org/0000-0002-9260-0753> ;
+                                          foaf:name "Oscar Corcho"
+                                        ],
+                                        [ schema:affiliation [ foaf:name "OEG-UPM"
+                                                             ] ;
+                                          foaf:name "Esteban Gonzalez"
+                                        ],
+                                        [ schema:affiliation [ foaf:name "OEG-UPM"
+                                                             ] ;
+                                          rdfs:seeAlso <http://orcid.org/0000-0003-0454-7145> ;
+                                          foaf:name "Daniel Garijo"
+                                        ],
+                                        [ schema:affiliation [ foaf:name "PSNC"
+                                                             ] ;
+                                          rdfs:seeAlso <http://orcid.org/0000-0003-4289-4922> ;
+                                          foaf:name "Raul Palma"
+                                        ];                                        
+                            dct:description "The vocabulary used by RELIANCE RO-crate profile for describing Earth Science artifacts, such as Data Cubes, in RO-Crate."@en ;
+                            dct:rights "This vocabulary is distributed under Creative Commons Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0"@en ;
+                            dct:title "RELIANCE RO-crate profile vocabulary"@en ;
+                            owl:versionInfo "1.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+### https://w3id.org/ro/terms/earth-science/extent
+reliance:extent a owl:DatatypeProperty ;
+				rdfs:label "extent" ;   
+				rdfs:comment "WKT description of the spatial object";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/spatialStepResolution
+reliance:spatialStepResolution a owl:DatatypeProperty ;
+				rdfs:label "spatialStepResolution" ;   
+				rdfs:comment "Resolution of observations";
+				rdfs:isDefinedBy reliance: .
+				
+### https://w3id.org/ro/terms/earth-science/coordinateReferenceSystem
+reliance:coordinateReferenceSystem a owl:DatatypeProperty ;
+				rdfs:label "coordinateReferenceSystem" ;   
+				rdfs:comment "Coordinate reference system used for the WKT coordinates";
+				rdfs:isDefinedBy reliance: .				
+
+### https://w3id.org/ro/terms/earth-science/temporalStepResolution
+reliance:temporalStepResolution a owl:DatatypeProperty ;
+				rdfs:label "temporalStepResolution" ;   
+				rdfs:comment "Resolution (temporal) of the observations";
+				rdfs:isDefinedBy reliance: .				
+				
+### https://w3id.org/ro/terms/earth-science/temporalReferenceSystem
+reliance:temporalReferenceSystem a owl:DatatypeProperty ;
+				rdfs:label "temporalReferenceSystem" ;   
+				rdfs:comment "Temporal reference system, if different from the usual one";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/highestElevation
+reliance:highestElevation a owl:DatatypeProperty ;
+				rdfs:label "highestElevation" ;   
+				rdfs:comment "Value of the highest elevation";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/lowestElevation
+reliance:lowestElevation a owl:DatatypeProperty ;
+				rdfs:label "lowestElevation" ;   
+				rdfs:comment "Value of the lowest  elevation";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/verticalStepResolution
+reliance:verticalStepResolution a owl:DatatypeProperty ;
+				rdfs:label "verticalStepResolution" ;   
+				rdfs:comment "Resolution (vertical) of the observations";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/verticalReferenceSystem
+reliance:verticalReferenceSystem a owl:DatatypeProperty ;
+				rdfs:label "verticalReferenceSystem" ;   
+				rdfs:comment "Vertical reference system, if different from the usual one (e.g., meters)";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/productType
+reliance:productType a owl:DatatypeProperty ;
+				rdfs:label "productType" ;   
+				rdfs:comment "Type of product or collection";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/productVersion
+reliance:productVersion a owl:DatatypeProperty ;
+				rdfs:label "productVersion" ;   
+				rdfs:comment "Version of the product or collection";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/dataType
+reliance:dataType a owl:DatatypeProperty ;
+				rdfs:label "dataType" ;   
+				rdfs:comment "Type of the data for observations";
+				rdfs:isDefinedBy reliance: .								
+
+### https://w3id.org/ro/terms/earth-science/dataTypeUnit
+reliance:dataTypeUnit a owl:DatatypeProperty ;
+				rdfs:label "dataTypeUnit" ;   
+				rdfs:comment "Unit for observations";
+				rdfs:isDefinedBy reliance: .	
+
+### https://w3id.org/ro/terms/earth-science/processingLevel
+reliance:processingLevel a owl:DatatypeProperty ;
+				rdfs:label "processingLevel" ;   
+				rdfs:comment "Processing level";
+				rdfs:isDefinedBy reliance: .	
+
+### https://w3id.org/ro/terms/earth-science/processor
+reliance:processor a owl:DatatypeProperty ;
+				rdfs:label "processor" ;   
+				rdfs:comment "It may be a string or the id of the processor";
+				rdfs:isDefinedBy reliance: .	
+
+### https://w3id.org/ro/terms/earth-science/instrument
+reliance:instrument a owl:DatatypeProperty ;
+				rdfs:label "instrument" ;   
+				rdfs:comment "It may be a string or the id of the instrument";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/platform
+reliance:platform a owl:DatatypeProperty ;
+				rdfs:label "platform" ;   
+				rdfs:comment "It may be a string or the id of the platform";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/otherDataAcquisitionSystem
+reliance:otherDataAcquisitionSystem a owl:DatatypeProperty ;
+				rdfs:label "otherDataAcquisitionSystem" ;   
+				rdfs:comment "It may be a string or the id of other Data Acquisition System";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/dataQuality
+reliance:dataQuality a owl:DatatypeProperty ;
+				rdfs:label "dataQuality" ;   
+				rdfs:comment "Any detail on the quality of data";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/maxValue
+reliance:maxValue a owl:DatatypeProperty ;
+				rdfs:label "maxValue" ;   
+				rdfs:comment "Maximum value for the observations";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/minValue
+reliance:minValue a owl:DatatypeProperty ;
+				rdfs:label "minValue" ;   
+				rdfs:comment "Minimum value for the observations";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/noDataValue
+reliance:noDataValue a owl:DatatypeProperty ;
+				rdfs:label "noDataValue" ;   
+				rdfs:comment "Value used in case that no data is available, as a way to represent null";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/linksToResources
+reliance:linksToResources a owl:DatatypeProperty ;
+				rdfs:label "linksToResources" ;   
+				rdfs:comment "Links to other relevant resources";
+				rdfs:isDefinedBy reliance: .
+
+                
+                                                                        
+#################################################################
+#    Classes
+#################################################################
+			   
+### https://w3id.org/ro/terms/earth-science/DataCubeCollection
+reliance:DataCubeCollection a owl:Class ;
+				rdfs:label "Data Cube Collection" ;   
+				rdfs:comment "A set of Data Cube Products sharing a common specification or characteristics. For example a series of Data Cube products from the same satellite (e.g. MSG) and the same sensor (detector, e.g. SEVIRI/optical) at different times (adapted from OGC OpenSearch Earth Observation extension).";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/DataCubeProduct
+reliance:DataCubeProduct a owl:Class ;
+				rdfs:label "Data Cube Product" ;   
+				rdfs:comment "An identifiable collection of data under one single identifier. It is independent of a physical form or an encoding even if it is normally distributed in a single file (adapted from OGC OpenSearch Earth Observation extension).";
+				rdfs:isDefinedBy reliance: .
+			   
+### https://w3id.org/ro/terms/earth-science/ExecutableResearchObject
+reliance:ExecutableResearchObject a owl:Class ;
+				rdfs:label "Executable Research Object" ;   
+				rdfs:comment "An executable research object is a research object that aggregates at least one artifact of executable type, e.g., python script, Jupyter Notebook, R script or any other code or software artifact. It might of course aggregates any other kind of resources.";
+				rdfs:isDefinedBy reliance: .
+
+### https://w3id.org/ro/terms/earth-science/JupyterNotebook
+reliance:JupyterNotebook a owl:Class ;
+				rdfs:label "Jupyter Notebook" ;   
+				rdfs:comment "Document produced by the Jupyter Notebook App, which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc). Notebook are both human-readable documents as well as executable documents.";
+				rdfs:isDefinedBy reliance: .
+
+			   
+#################################################################
+#    Alignments
+#################################################################
+
+#################################################################
+#    Individuals
+#################################################################
+
