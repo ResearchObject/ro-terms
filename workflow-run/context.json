@@ -1,0 +1,8 @@
+[
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+        "Null": "https://w3id.org/ro/terms/workflow-run#Null",
+        "Long": "https://w3id.org/ro/terms/workflow-run#Long",
+        "Double": "https://w3id.org/ro/terms/workflow-run#Double"
+    }
+]

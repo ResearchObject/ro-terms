@@ -1,0 +1,4 @@
+term,type,label,description,domain,range
+Null,Class,no value,Used to indicate a missing parameter,,
+Long,Class,long integer,64-bit signed integer,,
+Double,Class,double precision,Double precision (64-bit) floating point number,,

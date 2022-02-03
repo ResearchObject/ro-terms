@@ -1,0 +1,11 @@
+cwl,ro-crate,standard
+Any,Thing,true
+null,Null,false
+boolean,Boolean,true
+int,Integer,true
+long,Long,false
+float,Float,true
+double,Double,false
+string,Text,true
+File,File,true
+Directory,Dataset,true
