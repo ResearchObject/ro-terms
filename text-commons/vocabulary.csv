@@ -1,0 +1,98 @@
+term,type,label,description,domain,range
+contributor,Property,"""Contributor""","""""",Person,Organization,Dataset
+translator,Property,"""Register""","""Specifies the type of register (any of the varieties of a language that a speaker uses in a particular social context [Merriam-Webster]) of the contents of a language resource
+""",Person,Organization,Dataset
+annotator,Property,"""Annotator""","""""",Person,Organization,Dataset
+author,Property,"""Author""","""""",Person,Organization,Dataset
+compiler,Property,"""Compiler""","""This refers to someone who creates a single resource with multiple parts, such as a book of short stories, or a person who produces a corpus of resources, which may be archived separately.""",Person,Organization,Dataset
+consultant,Property,"""Consultant""","""This term is commonly used by field linguists for the native speakers who work with them in describing and analyzing a language. They contribute their expertise in their native language to the resource, although their speech, sign, or writing may not appear directly in the resource. In some parts of the world the preferred term for this role is "informant".""",Person,Organization,Dataset
+dataInputter,Property,"""Data Inputter""","""""",Person,Organization,Dataset
+depositor,Property,"""Depositor""","""""",Person,Organization,Dataset
+developer,Property,"""Developer""","""A software programmer, designer, or analyst; a designer of a questionnaire or research task.""",Person,Organization,Dataset
+editor,Property,"""Editor""","""This role includes anyone whose role was editorial in nature, such as proof-readers, debuggers, testers, etc. It may overlap the Compiler role in some cases.""",Person,Organization,Dataset
+illustrator,Property,"""Illustrator""","""""",Person,Organization,Dataset
+interpreter,Property,"""Interpreter""","""The choice between 'interpreter' and 'translator' may depend on the dynamics of the resource creation event or process. Generally, if the participant is translating 'live'; that is, while the speaker or signer is speaking or signing, she or he should be identified as an interpreter. Also, some discourse genres include a participant who interprets or explains a performance of some kind.""",Person,Organization,Dataset
+interviewer,Property,"""Interviewer""","""""",Person,Organization,Dataset
+participant,Property,"""Participant""","""This role is intended for minor participants such as audience members or other peripherally-involved participants in the event. These interlocutors need not have been physically present. They could be participants in some form of long-distance communication, such as lurkers in an online discussion, or they may have participated in general sense of having allowed the creation event to take place, such as the mayor of an indigenous community.""",Person,Organization,Dataset
+performer,Property,"""Performer""","""It is recommended that this term be used only for creative participants whose role is not better indicated by a more specific term, such as 'speaker', 'signer', or 'singer'.""",Person,Organization,Dataset
+photographer,Property,"""Photographer""","""""",Person,Organization,Dataset
+recorder,Property,"""Recorder""","""""",Person,Organization,Dataset
+researchParticipant,Property,"""Research Participant""","""""",Person,Organization,Dataset
+researcher,Property,"""Researcher""","""""",Person,Organization,Dataset
+responder,Property,"""Responder""","""This person's voice can be heard (or their words can be read) in the resource, typically saying the language-appropriate equivalent of "uh-huh", "amen", "you don't say", etc. This role is sometimes referred to as a "yes-sayer", "backchanneler, or "co-conversant".""",Person,Organization,Dataset
+signer,Property,"""Signer""","""Signers are those whose gestures predominate in a recorded or filmed resource. (This resource may be a transcription of that recording.)""",Person,Organization,Dataset
+singer,Property,"""Singer""","""""",Person,Organization,Dataset
+speaker,Property,"""Speaker""","""Speakers are those whose voices predominate in a recorded or filmed resource. (This resource may be a transcription of that recording.)""",Person,Organization,Dataset
+sponsor,Property,"""Sponsor""","""""",Person,Organization,Dataset
+transcriber,Property,"""Transcriber""","""""",Person,Organization,Dataset
+translator,Property,"""Translator""","""""",Person,Organization,Dataset
+Annotation,Class,"""Annotation""","""The resource includes information which annotates some other linguistic record.""",,
+DiscourseAnnotation,Class,"""Discourse annotation""","""The resource includes aligned discourse transcription.""",,
+GesturalAnnotation,Class,"""Gestural annotation""","""The resource includes gestural annotation.""",,
+KinesicAnnotation,Class,"""""","""""",,
+MorphologicalAnnotation,Class,"""Morphological annotation""","""The resource includes morphological annotation.""",,
+MusicalAnnotation,Class,"""Musical annotation""","""The resource includes musical annotation.""",,
+Part-of-speechAnnotation,Class,"""Part-of-speech annotation""","""The resource includes aligned part-of-speech tags.""",,
+PhoneticAnnotation,Class,"""Phonetic annotation""","""The resource includes phonetic annotation.""",,
+PhonologicalAnnotation,Class,"""""","""""",,
+ProsodicAnnotation,Class,"""Prosodic annotation""","""The resource includes prosodic annotation.""",,
+SemanticAnnotation,Class,"""""","""""",,
+SyntacticAnnotation,Class,"""Syntactic annotation""","""The resource includes aligned syntactic transcription.""",,
+TranslationAnnotation,Class,"""Translation""","""A translation is a version of the resource in another language.""",,
+Corpus,Class,"""Dataset""","""The resource is a structured set of data items.""",,
+DiscourseDataset,Class,"""Discourse dataset""","""The dataset is comprised of discourse data.""",,
+GesturalDataset,Class,"""Gestural dataset""","""The dataset is comprised of gestural data.""",,
+KinesicDataset,Class,"""Kinesic dataset""","""The dataset is comprised of kinesic data.""",,
+MorphologicalDataset,Class,"""Morphological dataset""","""The dataset is comprised of morphological data.""",,
+MusicalDataset,Class,"""Musical dataset""","""The dataset is comprised of musical data.""",,
+OrthographicDataset,Class,"""Orthographic dataset""","""The dataset is comprised of orthographic data.""",,
+Part-of-speechDataset,Class,"""Part-of-speech dataset""","""The dataset is comprised of part-of-speech data.""",,
+PhoneticDataset,Class,"""Phonetic dataset""","""The dataset is comprised of phonetic data.""",,
+PhonologicalDataset,Class,"""Phonological dataset""","""dataset/prosodic""",,
+SemanticDataset,Class,"""Semantic dataset""","""The dataset is comprised of semantic data.""",,
+SyntacticDataset,Class,"""Syntactic dataset""","""The dataset is comprised of syntactic data.""",,
+LanguageDescription,Class,"""Description""","""The resource is a linguistic description.""",,
+ComparativeDescription,Class,"""Comparative description""","""The resource includes comparative or typological description.""",,
+DiscourseDescription,Class,"""Discourse description""","""The resource includes description of discourse characteristics.""",,
+GesturalDescription,Class,"""Gestural description""","""The resource includes description of gestural characteristics.""",,
+KinesicDescription,Class,"""Kinesic description""","""The resource includes description of kinesic characteristics.""",,
+MorphologicalDescription,Class,"""Morphological description""","""The resource includes description of morphological characteristics.""",,
+OrthographicDescription,Class,"""Orthographic description""","""The resource includes documentation of a writing system.""",,
+Part-of-speechDescription,Class,"""Part-of-speech description""","""The resource includes description of part-of-speech characteristics.""",,
+PedagogicalDescription,Class,"""Pedagogical description""","""The resource includes pedagogical description.""",,
+PhoneticDescription,Class,"""Phonetic description""","""The resource includes description of phonetic characteristics.""",,
+PhonologicalDescription,Class,"""Phonological description""","""The resource includes descriptionof phonological characteristics.""",,
+ProsodicDescription,Class,"""Prosodic description""","""The resource includes description of prosodic characteristics.""",,
+SemanticDescription,Class,"""Semantic description""","""The resource includes description of semantic characteristics.""",,
+SyntacticDescription,Class,"""Syntactica description""","""The resource includes description of syntactic characteristics.""",,
+Lexicon,Class,"""Lexicon""","""The resource includes a systematic listing of lexical items.""",,
+AnalyticalLexicon,Class,"""Analytical Lexicon""","""The lexicon contains analytical information.""",,
+BilingualLexicon,Class,"""Bilingual Lexicon""","""The resource includes """,,
+DictionaryLexicon,Class,"""Dictionary""","""The resource includes a dictionary.""",,
+EtymologicalLexicon,Class,"""Etymological Lexicon""","""The lexicon contains etymological information.""",,
+FrequencyLexicon,Class,"""Frequency Lexicon""","""The lexicon contains frequency information.""",,
+PhoneticLexicon,Class,"""Phonetic Lexicon""","""The lexicon contains phonetic information, including pronunciation, phonology, stress, rhymes.""",,
+Proper-namesLexicon,Class,"""Name Dictionary""","""The resource includes only proper names sa dictionary headwords.""",,
+TerminologyLexicon,Class,"""Terminology""","""The resource includes a terminological lexicon.""",,
+ThesaurusLexicon,Class,"""Thesaurus""","""The resource includes a thesaurus.""",,
+WordlistLexicon,Class,"""Word list""","""The resource includes a word list.""",,
+WordnetLexicon,Class,"""WordNet""","""The resource includes a semantic wordnet.""",,
+Text,Class,"""Text""","""This is a primary resource: the object of study.""",,
+OrthographicText,Class,"""Orthographic""","""An orthographic (written) work.""",,
+DramaText,Class,"""Drama""","""A planned, creative, rendition of discourse with two or more participants.""",,
+FormulaicText,Class,"""Formulaic""","""The resource is a ritually or conventionally structured discourse.""",,
+LudicText,Class,"""Ludic""","""Ludic discourse is language whose primary function is to be part of play, or a style of speech that involves a creative manipulation of the structures of the language.""",,
+NarrativeText,Class,"""Narrative""","""A monologic discourse which represents temporally organized events.""",,
+OratoryText,Class,"""Oratory""",""""The art of public speaking, or of speaking eloquently according to rules or conventions.""",,
+ProceduralText,Class,"""Procedural""","""An explanation or description of a method, process, or situation having ordered steps.""",,
+ReportText,Class,"""Report""","""A factual account of some event or circumstance.""",,
+SingingText,Class,"""Singing""",""""Words or sounds [articulated] in succession with musical inflections or modulations of the voice" OED.""",,
+UnintelligibleSpeechText,Class,"""Unintelligible speech""","""The resource consists of utterances that are not intended to be interpretable as ordinary language.""",,
+Transcription,Class,"""Transcription""","""A transcription is a written representation of an audio or visual signal.""",,
+GesturalTranscription,Class,"""Gestural transcription""","""The resource includes gestural transcription.""",,
+KinesicTranscription,Class,"""Kinesic transcription""","""A kinesic transcription represents eye, face, and body movements.""",,
+MusicalTranscription,Class,"""Musical transcription""","""A musical transcription represents music.""",,
+OrthographicTranscription,Class,"""Orthographic transcription""","""An orthographic transcription uses a standard or conventional orthography.""",,
+PhonemicTranscription,Class,"""Phonemic transcription""","""A phonemic transcription represents the signal at the level of the phoneme.""",,
+PhoneticTranscription,Class,"""Phonetic transcription""","""A phonetic transcription represents the signal at the phonetic level.""",,
+ProsodicTranscription,Class,"""Prosodic transcription""","""The resource includes prosodic transcription.""",,
