@@ -28,7 +28,6 @@ def build_context(namespace, vocab_path, ro_crate_version=RO_CRATE_VERSION):
 def main(args):
     ns_dir = Path(args.ns_dir)
     vocab_path = ns_dir / VOCAB_FN
-    print(vocab_path)
     if not vocab_path.is_file():
         raise RuntimeError(f"{vocab_path} not found")
     context = build_context(ns_dir.name, vocab_path,
