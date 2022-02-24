@@ -1,98 +1,95 @@
 term,type,label,description,domain,range
-AnalyticalLexicon,Class,"Analytical Lexicon","The lexicon contains analytical information.",,
-Annotation,Class,"Annotation","The resource includes information which annotates some other linguistic record.",,
-BilingualLexicon,Class,"Bilingual Lexicon","The resource includes ",,
-ComparativeDescription,Class,"Comparative description","The resource includes comparative or typological description.",,
-Corpus,Class,"Dataset","The resource is a structured set of data items.",,
-DictionaryLexicon,Class,"Dictionary","The resource includes a dictionary.",,
-DiscourseAnnotation,Class,"Discourse annotation","The resource includes aligned discourse transcription.",,
-DiscourseDataset,Class,"Discourse dataset","The dataset is comprised of discourse data.",,
-DiscourseDescription,Class,"Discourse description","The resource includes description of discourse characteristics.",,
-DramaText,Class,"Drama","A planned, creative, rendition of discourse with two or more participants.",,
-EtymologicalLexicon,Class,"Etymological Lexicon","The lexicon contains etymological information.",,
-FormulaicText,Class,"Formulaic","The resource is a ritually or conventionally structured discourse.",,
-FrequencyLexicon,Class,"Frequency Lexicon","The lexicon contains frequency information.",,
-GesturalAnnotation,Class,"Gestural annotation","The resource includes gestural annotation.",,
-GesturalDataset,Class,"Gestural dataset","The dataset is comprised of gestural data.",,
-GesturalDescription,Class,"Gestural description","The resource includes description of gestural characteristics.",,
-GesturalTranscription,Class,"Gestural transcription","The resource includes gestural transcription.",,
-KinesicAnnotation,Class,"","",,
-KinesicDataset,Class,"Kinesic dataset","The dataset is comprised of kinesic data.",,
-KinesicDescription,Class,"Kinesic description","The resource includes description of kinesic characteristics.",,
-KinesicTranscription,Class,"Kinesic transcription","A kinesic transcription represents eye, face, and body movements.",,
-LanguageDescription,Class,"Description","The resource is a linguistic description.",,
-Lexicon,Class,"Lexicon","The resource includes a systematic listing of lexical items.",,
-LudicText,Class,"Ludic","Ludic discourse is language whose primary function is to be part of play, or a style of speech that involves a creative manipulation of the structures of the language.",,
-MorphologicalAnnotation,Class,"Morphological annotation","The resource includes morphological annotation.",,
-MorphologicalDataset,Class,"Morphological dataset","The dataset is comprised of morphological data.",,
-MorphologicalDescription,Class,"Morphological description","The resource includes description of morphological characteristics.",,
-MusicalAnnotation,Class,"Musical annotation","The resource includes musical annotation.",,
-MusicalDataset,Class,"Musical dataset","The dataset is comprised of musical data.",,
-MusicalTranscription,Class,"Musical transcription","A musical transcription represents music.",,
-NarrativeText,Class,"Narrative","A monologic discourse which represents temporally organized events.",,
-OratoryText,Class,"Oratory","""The art of public speaking, or of speaking eloquently according to rules or conventions.",,
-OrthographicDataset,Class,"Orthographic dataset","The dataset is comprised of orthographic data.",,
-OrthographicDescription,Class,"Orthographic description","The resource includes documentation of a writing system.",,
-OrthographicText,Class,"Orthographic","An orthographic (written) work.",,
-OrthographicTranscription,Class,"Orthographic transcription","An orthographic transcription uses a standard or conventional orthography.",,
-Part-of-speechAnnotation,Class,"Part-of-speech annotation","The resource includes aligned part-of-speech tags.",,
-Part-of-speechDataset,Class,"Part-of-speech dataset","The dataset is comprised of part-of-speech data.",,
-Part-of-speechDescription,Class,"Part-of-speech description","The resource includes description of part-of-speech characteristics.",,
-PedagogicalDescription,Class,"Pedagogical description","The resource includes pedagogical description.",,
-PhonemicTranscription,Class,"Phonemic transcription","A phonemic transcription represents the signal at the level of the phoneme.",,
-PhoneticAnnotation,Class,"Phonetic annotation","The resource includes phonetic annotation.",,
-PhoneticDataset,Class,"Phonetic dataset","The dataset is comprised of phonetic data.",,
-PhoneticDescription,Class,"Phonetic description","The resource includes description of phonetic characteristics.",,
-PhoneticLexicon,Class,"Phonetic Lexicon","The lexicon contains phonetic information, including pronunciation, phonology, stress, rhymes.",,
-PhoneticTranscription,Class,"Phonetic transcription","A phonetic transcription represents the signal at the phonetic level.",,
-PhonologicalAnnotation,Class,"","",,
-PhonologicalDataset,Class,"Phonological dataset","dataset/prosodic",,
-PhonologicalDescription,Class,"Phonological description","The resource includes descriptionof phonological characteristics.",,
-ProceduralText,Class,"Procedural","An explanation or description of a method, process, or situation having ordered steps.",,
-Proper-namesLexicon,Class,"Name Dictionary","The resource includes only proper names sa dictionary headwords.",,
-ProsodicAnnotation,Class,"Prosodic annotation","The resource includes prosodic annotation.",,
-ProsodicDescription,Class,"Prosodic description","The resource includes description of prosodic characteristics.",,
-ProsodicTranscription,Class,"Prosodic transcription","The resource includes prosodic transcription.",,
-ReportText,Class,"Report","A factual account of some event or circumstance.",,
-SemanticAnnotation,Class,"","",,
-SemanticDataset,Class,"Semantic dataset","The dataset is comprised of semantic data.",,
-SemanticDescription,Class,"Semantic description","The resource includes description of semantic characteristics.",,
-SingingText,Class,"Singing","""Words or sounds [articulated] in succession with musical inflections or modulations of the voice"" OED.",,
-SyntacticAnnotation,Class,"Syntactic annotation","The resource includes aligned syntactic transcription.",,
-SyntacticDataset,Class,"Syntactic dataset","The dataset is comprised of syntactic data.",,
-SyntacticDescription,Class,"Syntactica description","The resource includes description of syntactic characteristics.",,
-TerminologyLexicon,Class,"Terminology","The resource includes a terminological lexicon.",,
-Text,Class,"Text","This is a primary resource: the object of study.",,
-ThesaurusLexicon,Class,"Thesaurus","The resource includes a thesaurus.",,
-Transcription,Class,"Transcription","A transcription is a written representation of an audio or visual signal.",,
-TranslationAnnotation,Class,"Translation","A translation is a version of the resource in another language.",,
-UnintelligibleSpeechText,Class,"Unintelligible speech","The resource consists of utterances that are not intended to be interpretable as ordinary language.",,
-WordlistLexicon,Class,"Word list","The resource includes a word list.",,
-WordnetLexicon,Class,"WordNet","The resource includes a semantic wordnet.",,
-annotator,Property,"Annotator","",Person,Organization,Dataset
-author,Property,"Author","",Person,Organization,Dataset
-compiler,Property,"Compiler","This refers to someone who creates a single resource with multiple parts, such as a book of short stories, or a person who produces a corpus of resources, which may be archived separately.",Person,Organization,Dataset
-consultant,Property,"Consultant","This term is commonly used by field linguists for the native speakers who work with them in describing and analyzing a language. They contribute their expertise in their native language to the resource, although their speech, sign, or writing may not appear directly in the resource. In some parts of the world the preferred term for this role is ""informant"".",Person,Organization,Dataset
-contributor,Property,"Contributor","",Person,Organization,Dataset
-dataInputter,Property,"Data Inputter","",Person,Organization,Dataset
-depositor,Property,"Depositor","",Person,Organization,Dataset
-developer,Property,"Developer","A software programmer, designer, or analyst; a designer of a questionnaire or research task.",Person,Organization,Dataset
-editor,Property,"Editor","This role includes anyone whose role was editorial in nature, such as proof-readers, debuggers, testers, etc. It may overlap the Compiler role in some cases.",Person,Organization,Dataset
-illustrator,Property,"Illustrator","",Person,Organization,Dataset
-interpreter,Property,"Interpreter","The choice between 'interpreter' and 'translator' may depend on the dynamics of the resource creation event or process. Generally, if the participant is translating 'live'; that is, while the speaker or signer is speaking or signing, she or he should be identified as an interpreter. Also, some discourse genres include a participant who interprets or explains a performance of some kind.",Person,Organization,Dataset
-interviewer,Property,"Interviewer","",Person,Organization,Dataset
-participant,Property,"Participant","This role is intended for minor participants such as audience members or other peripherally-involved participants in the event. These interlocutors need not have been physically present. They could be participants in some form of long-distance communication, such as lurkers in an online discussion, or they may have participated in general sense of having allowed the creation event to take place, such as the mayor of an indigenous community.",Person,Organization,Dataset
-performer,Property,"Performer","It is recommended that this term be used only for creative participants whose role is not better indicated by a more specific term, such as 'speaker', 'signer', or 'singer'.",Person,Organization,Dataset
-photographer,Property,"Photographer","",Person,Organization,Dataset
-recorder,Property,"Recorder","",Person,Organization,Dataset
-translator,Property,"Register","Specifies the type of register (any of the varieties of a language that a speaker uses in a particular social context [Merriam-Webster]) of the contents of a language resource
-",Person,Organization,Dataset
-researchParticipant,Property,"Research Participant","",Person,Organization,Dataset
-researcher,Property,"Researcher","",Person,Organization,Dataset
-responder,Property,"Responder","This person's voice can be heard (or their words can be read) in the resource, typically saying the language-appropriate equivalent of ""uh-huh"", ""amen"", ""you don't say"", etc. This role is sometimes referred to as a ""yes-sayer"", ""backchanneler, or ""co-conversant"".",Person,Organization,Dataset
-signer,Property,"Signer","Signers are those whose gestures predominate in a recorded or filmed resource. (This resource may be a transcription of that recording.)",Person,Organization,Dataset
-singer,Property,"Singer","",Person,Organization,Dataset
-speaker,Property,"Speaker","Speakers are those whose voices predominate in a recorded or filmed resource. (This resource may be a transcription of that recording.)",Person,Organization,Dataset
-sponsor,Property,"Sponsor","",Person,Organization,Dataset
-transcriber,Property,"Transcriber","",Person,Organization,Dataset
-translator,Property,"Translator","",Person,Organization,Dataset
+" AnalyticalLexicon ",Class," Analytical Lexicon "," Analytical information includes such things as morphological derivation, grammatically related forms, argument structure, ... ","",""
+" Annotation ",Class," Annotation "," A linguistic annotation is defined as structured linguistic information that is explicitly aligned to some spatial and/or temporal extent of some other linguistic record. ","",""
+" BilingualLexicon ",Class," Bilingual Lexicon "," s in another language. ","",""
+" ComparativeDescription ",Class," Comparative description "," The resource includes comparative or typological description. ","",""
+" DictionaryLexicon ",Class," Dictionary "," This includes any resource that lists words or morphemes and defines them. It contrasts with a word list in that the  ","",""
+" DiscourseAnnotation ",Class," Discourse annotation "," The resource includes aligned discourse transcription. ","",""
+" DiscourseDataset ",Class," Discourse dataset "," The dataset is comprised of discourse data. ","",""
+" DiscourseDescription ",Class," Discourse description "," The resource includes description of discourse characteristics. ","",""
+" DramaText ",Class," Drama "," A planned, creative, rendition of discourse with two or more participants. ","",""
+" EtymologicalLexicon ",Class," Etymological Lexicon "," The Lexicon contains etymological information. ","",""
+" FormulaicText ",Class," Formulaic "," Examples of formulaic discourse are prayers, curses, blessings, charms, curing rituals, marriage vows, and oaths. ","",""
+" FrequencyLexicon ",Class," Frequency Lexicon "," The Lexicon contains frequency information. ","",""
+" GesturalAnnotation ",Class," Gestural annotation "," The resource includes gestural annotation. ","",""
+" GesturalDataset ",Class," Gestural dataset "," The dataset is comprised of gestural data. ","",""
+" GesturalDescription ",Class," Gestural description "," The resource includes description of gestural characteristics. ","",""
+" GesturalTranscription ",Class," Gestural transcription "," The resource includes gestural transcription. ","",""
+" KinesicAnnotation ",Class,""," The resource includes aligned representations of eye, face, and body movements. ","",""
+" KinesicDataset ",Class," Kinesic dataset "," The dataset is comprised of kinesic data. ","",""
+" KinesicDescription ",Class," Kinesic description "," The resource includes description of kinesic characteristics. ","",""
+" KinesicTranscription ",Class," Kinesic transcription "," Kinesic transcriptions represent systematic uses of facial expressions, body language, and eye gaze that are used to communicate meaning. ","",""
+" LanguageDescription ",Class," Description "," A description is any description or analysis of a language. Unlike a transcription or an annotation, the structure of a description is independent of the structure of the linguistic events that it describes. ","",""
+" Lexicon ",Class," Lexicon "," The resource includes a systematic listing of lexical items. ","",""
+" LudicText ",Class," Ludic "," Examples of ludic discourse are play languages, jokes, secret languages, and speech disguises. ","",""
+" MorphologicalAnnotation ",Class," Morphological annotation "," A morphological annotation is a morphological transcription where the component morphemes are aligned with some other linguistic record, such as an orthographic transcription or a speech signal. An example of morphological annotation is interlinear text with aligned morphemic glosses. ","",""
+" MorphologicalDataset ",Class," Morphological dataset "," The dataset is comprised of morphological data. ","",""
+" MorphologicalDescription ",Class," Morphological description "," The resource includes description of morphological characteristics. ","",""
+" MusicalAnnotation ",Class," Musical annotation "," The resource includes musical annotation. ","",""
+" MusicalDataset ",Class," Musical dataset "," The dataset is comprised of musical data. ","",""
+" MusicalTranscription ",Class," Musical transcription "," A musical transcription represents music. ","",""
+" NarrativeText ",Class," Narrative "," Types of narratives include historical, traditional, and personal narratives, myths, folktales, fables, and humorous stories. ","",""
+" OratoryText ",Class," Oratory "," Examples of oratory include sermons, lectures, political speeches, and invocations. ","",""
+" OrthographicDataset ",Class," Orthographic dataset "," The dataset is comprised of orthographic data. ","",""
+" OrthographicDescription ",Class," Orthographic description "," The resource includes documentation of a writing system. ","",""
+" OrthographicText ",Class," Orthographic "," Examples of Orthographic texts include letters, books, and other written documents ","",""
+" OrthographicTranscription ",Class," Orthographic transcription "," Orthographic transcriptions differ from phonemic transcriptions that use a practical orthography in that they include orthographic conventions for punctuation, capitalization, etc. ","",""
+" Part-of-speechAnnotation ",Class," Part-of-speech annotation "," The resource includes aligned part-of-speech tags. ","",""
+" Part-of-speechDataset ",Class," Part-of-speech dataset "," The dataset is comprised of part-of-speech data. ","",""
+" Part-of-speechDescription ",Class," Part-of-speech description "," The resource includes description of part-of-speech characteristics. ","",""
+" PedagogicalDescription ",Class," Pedagogical description "," A pedagogical description is a style of presentation intended for use in teaching people to use the language. ","",""
+" PhonemicTranscription ",Class," Phonemic transcription "," Phonemic transcription may use the International Phonetic Alphabet [IPA] or a practical orthography. ","",""
+" PhoneticAnnotation ",Class," Phonetic annotation "," An example of a phonetic annotation is the TIMIT database, in which each element of phonetic transcription is associated with a range of samples in a digital audio file [TIMIT]. ","",""
+" PhoneticDataset ",Class," Phonetic dataset "," The dataset is comprised of phonetic data. ","",""
+" PhoneticDescription ",Class," Phonetic description "," The resource includes description of phonetic characteristics. ","",""
+" PhoneticLexicon ",Class," Phonetic Lexicon "," The Lexicon contains phonetic information, including pronunciation, phonology, stress, rhymes. ","",""
+" PhoneticTranscription ",Class," Phonetic transcription "," Phonetic transcription may be narrow or broad, and will typically use the International Phonetic Alphabet [IPA] in a standard encoding (e.g. [Unicode-IPA], [SAMPA]). Phonological transcriptions are also classified here. ","",""
+" PhonologicalAnnotation ",Class,"","","",""
+" PhonologicalDataset ",Class," Phonological dataset "," Prosodic dataset ","",""
+" PhonologicalDescription ",Class," Phonological description "," The resource includes descriptionof phonological characteristics. ","",""
+" ProceduralText ",Class," Procedural "," Examples of procedural discourses include recipes, instructions, and plans. ","",""
+" Proper-namesLexicon ",Class," Name Dictionary "," The resource includes only proper names sa dictionary headwords. ","",""
+" ProsodicAnnotation ",Class," Prosodic annotation "," The resource includes prosodic annotation. ","",""
+" ProsodicDescription ",Class," Prosodic description "," The resource includes description of prosodic characteristics. ","",""
+" ProsodicTranscription ",Class," Prosodic transcription "," A prosodic transcription is a symbolic record of intonation, stress, tone or other suprasegmental features that is expressed independently of regular phonetic transcription. ","",""
+" ReportText ",Class," Report "," Examples of reports include news reports, essays, and commentaries. ","",""
+" SemanticAnnotation ",Class,"","","",""
+" SemanticDataset ",Class," Semantic dataset "," The dataset is comprised of semantic data. ","",""
+" SemanticDescription ",Class," Semantic description "," The resource includes description of semantic characteristics. ","",""
+" SingingText ",Class," Singing "," Examples of singing include chants, songs, and choruses. ","",""
+" SyntacticAnnotation ",Class," Syntactic annotation "," A syntactic annotation might include supra-lexical features such as word order or auxiliary phrase constructions. They may thus be aligned with phrases or clauses rather than smaller segments of the annotated record. ","",""
+" SyntacticDataset ",Class," Syntactic dataset "," The dataset is comprised of syntactic data. ","",""
+" SyntacticDescription ",Class," Syntactic description "," The resource includes description of syntactic characteristics. ","",""
+" TerminologyLexicon ",Class," Terminology "," A terminological Lexicon is a glossary of domain-specific terms. Examples are technical terminology, kinship terms, color terms, acronyms, ... ","",""
+" Text ",Class," Text "," A text is defined as any primary resource or research material, such as a literary work, film, or recording of natural discourse. ","",""
+" ThesaurusLexicon ",Class," Thesaurus "," A thesaurus is a list of words or concepts arranged according to sense. ","",""
+" Transcription ",Class," Transcription "," A resource can be identified as a transcription if it includes a type of transcription as part of the content; for example, the first line of an interlinear analysis is often some type of transcription. ","",""
+" TranslationAnnotation ",Class," Translation "," Translations may align with different linguistic levels of the resource: morpheme-by-morpheme translation, word-by-word translation, sentence-level free translation, or discourse-level free translation. ","",""
+" UnintelligibleSpeechText ",Class," Unintelligible speech "," Examples of unintelligible speech include sacred languages, speaking in tongues, and singing syllables (fa-la-la). ","",""
+" WordlistLexicon ",Class," Word list "," A word list is a list of reference words in a major language for which the nearest equivalent word in a target language has been elicited (for instance, the Swadesh 100-word list). ","",""
+" WordnetLexicon ",Class," WordNet "," Whereas a dictionary documents the meanings of words by means of  ","",""
+" annotator ",Property," Annotator "," The participant produced an annotation of this or a related resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" author ",Property," Author "," The participant contributed original writings to the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" compiler ",Property," Compiler "," The participant is responsible for collecting the sub-parts of the resource together. "," schema:Dataset "," schema:Person  schema:Organization "
+" consultant ",Property," Consultant "," The participant contributes expertise to the creation of a work. "," schema:Dataset "," schema:Person  schema:Organization "
+" dataInputter ",Property," Data Inputter "," The participant was responsible for entering, re-typing, and/or structuring the data contained in the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" depositor ",Property," Depositor "," The participant was responsible for depositing the resource in an archive. "," schema:Dataset "," schema:Person  schema:Organization "
+" developer ",Property," Developer "," The participant developed the methodology or tools that constitute the resource, or that were used to create the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" editor ",Property," Editor "," The participant reviewed, corrected, and/or tested the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" illustrator ",Property," Illustrator "," The participant contributed drawings or other illustrations to the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" interpreter ",Property," Interpreter "," The participant translates in real-time or explains the discourse recorded in the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" interviewer ",Property," Interviewer "," The participant conducted an interview that forms part of the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" participant ",Property," Participant "," The participant was present during the creation of the resource, but did not contribute substantially to its content. "," schema:Dataset "," schema:Person  schema:Organization "
+" performer ",Property," Performer "," The participant performed some portion of a recorded, filmed, or transcribed resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" photographer ",Property," Photographer "," The participant took the photograph, or shot the film, that appears in or constitutes the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" recorder ",Property," Recorder "," The participant operated the recording machinery used to create the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" register ",Property," Register "," Specifies the type of register (any of the varieties of a language that a speaker uses in a particular social context [Merriam-Webster]) of the contents of a language resource  "," schema:Dataset "," schema:Person  schema:Organization "
+" researchParticipant ",Property," Research Participant "," The participant acted as a research subject or responded to a questionnaire, the results of which study form the basis of the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" researcher ",Property," Researcher "," The resource was created as part of the participant's research, or the research presents interim or final results from the participant's research. "," schema:Dataset "," schema:Person  schema:Organization "
+" responder ",Property," Responder "," The participant was an interlocutor in some sort of discourse event. "," schema:Dataset "," schema:Person  schema:Organization "
+" signer ",Property," Signer "," The participant was a principal signer in a resource that consists of a recording, a film, or a transcription of a recorded resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" singer ",Property," Singer "," The participant sang, either individually or as part of a group, in a resource that consists of a recording, a film, or a transcription of a recorded resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" speaker ",Property," Speaker "," The participant was a principal speaker in a resource that consists of a recording, a film, or a transcription of a recorded resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" sponsor ",Property," Sponsor "," The participant contributed financial support to the creation of the resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" transcriber ",Property," Transcriber "," The participant produced a transcription of this or a related resource. "," schema:Dataset "," schema:Person  schema:Organization "
+" translator ",Property," Translator "," The participant produced a translation of this or a related resource. "," schema:Dataset "," schema:Person  schema:Organization "
