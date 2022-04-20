@@ -1,4 +1,4 @@
-cwl,ro-crate,standard
+cwl,ro-crate,existing
 Any,Thing,true
 null,Null,false
 boolean,Boolean,true
