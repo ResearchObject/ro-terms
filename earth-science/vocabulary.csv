@@ -1,0 +1,28 @@
+Entity;Type;label;description
+Data Cube Collection;Class;Data Cube Collection;A set of Data Cube Products sharing a common specification or characteristics. For example a series of Data Cube products from the same satellite (e.g. MSG) and the same sensor (detector, e.g. SEVIRI/optical) at different times (adapted from OGC OpenSearch Earth Observation extension).
+Data Cube Product;Class;Data Cube Product;An identifiable collection of data under one single identifier. It is independent of a physical form or an encoding even if it is normally distributed in a single file (adapted from OGC OpenSearch Earth Observation extension).
+Executable Research Object;Class;Executable Research Object;An executable research object is a research object that aggregates at least one artifact of executable type, e.g., python script, Jupyter Notebook, R script or any other code or software artifact. It might of course aggregates any other kind of resources.
+Jupyter Notebook;Class;Jupyter Notebook;Document produced by the Jupyter Notebook App, which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc). Notebook are both human-readable documents as well as executable documents.
+coordinateReferenceSystem;DataProperty;coordinateReferenceSystem;Coordinate reference system used for the WKT coordinates
+dataQuality;DataProperty;dataQuality;Any detail on the quality of data
+dataType;DataProperty;dataType;Type of the data for observations
+dataTypeUnit;DataProperty;dataTypeUnit;Unit for observations
+extent;DataProperty;extent;WKT description of the spatial object
+highestElevation;DataProperty;highestElevation;Value of the highest elevation
+instrument;DataProperty;instrument;It may be a string or the id of the instrument
+linksToResources;DataProperty;linksToResources;Links to other relevant resources
+lowestElevation;DataProperty;lowestElevation;Value of the lowest  elevation
+maxValue;DataProperty;maxValue;Maximum value for the observations
+minValue;DataProperty;minValue;Minimum value for the observations
+noDataValue;DataProperty;noDataValue;Value used in case that no data is available, as a way to represent null
+otherDataAcquisitionSystem;DataProperty;otherDataAcquisitionSystem;It may be a string or the id of other Data Acquisition System
+platform;DataProperty;platform;It may be a string or the id of the platform
+processingLevel;DataProperty;processingLevel;Processing level
+processor;DataProperty;processor;It may be a string or the id of the processor
+productType;DataProperty;productType;Type of product or collection
+productVersion;DataProperty;productVersion;Version of the product or collection
+spatialStepResolution;DataProperty;spatialStepResolution;Resolution of observations
+temporalReferenceSystem;DataProperty;temporalReferenceSystem;Temporal reference system, if different from the usual one
+temporalStepResolution;DataProperty;temporalStepResolution;Resolution (temporal) of the observations
+verticalReferenceSystem;DataProperty;verticalReferenceSystem;Vertical reference system, if different from the usual one (e.g., meters)
+verticalStepResolution;DataProperty;verticalStepResolution;Resolution (vertical) of the observations
