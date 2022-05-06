@@ -1,0 +1,2 @@
+"term","type","label","description","domain","range"
+"executedStep","Property","executedStep","An action that represents a partial execution of this action.","Action","Action"

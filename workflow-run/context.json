@@ -1,0 +1,6 @@
+[
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+        "executedStep": "https://w3id.org/ro/terms/workflow-run#executedStep"
+    }
+]
