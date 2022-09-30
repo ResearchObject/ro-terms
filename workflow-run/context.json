@@ -3,7 +3,7 @@
     {
         "ParameterConnection": "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
         "connection": "https://w3id.org/ro/terms/workflow-run#connection",
-        "source": "https://w3id.org/ro/terms/workflow-run#source",
-        "target": "https://w3id.org/ro/terms/workflow-run#target"
+        "sourceParameter": "https://w3id.org/ro/terms/workflow-run#sourceParameter",
+        "targetParameter": "https://w3id.org/ro/terms/workflow-run#targetParameter"
     }
 ]
