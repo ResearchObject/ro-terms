@@ -1,5 +1,5 @@
 "term","type","label","description","domain","range"
 "ParameterConnection","Class","ParameterConnection","A connection between parameters of different applications",,
-"connection","Property","connection","A parameter connection created by this workflow","ComputationalWorkflow","ParameterConnection"
+"connection","Property","connection","A parameter connection created by this workflow","ComputationalWorkflow HowToStep","ParameterConnection"
 "sourceParameter","Property","sourceParameter","The source (upstream) parameter","ParameterConnection","FormalParameter"
 "targetParameter","Property","targetParameter","The target (downstream) parameter","ParameterConnection","FormalParameter"
