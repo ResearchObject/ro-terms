@@ -21,6 +21,8 @@ def build_context(namespace, vocab_path, ro_crate_version=RO_CRATE_VERSION):
         reader = csv.DictReader(f)
         for row in reader:
             k = row["term"]
+            if not k:
+                continue # empty line!
             add_terms[k] = f"{RO_TERMS_PREFIX}/{namespace}#{k}"
     return [ro_crate_context, add_terms]
 
