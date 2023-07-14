@@ -20,6 +20,8 @@ def build_context(namespace, vocab_path, ro_crate_version=RO_CRATE_VERSION):
     with open(vocab_path, newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            if not "term" in row:
+                raise RuntimeError("Unexpected keys in CSV %s, try: term,type,label,description,domain,range" % row.keys())
             k = row["term"]
             if not k:
                 continue # empty line!
