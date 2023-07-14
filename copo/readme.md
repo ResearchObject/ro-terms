@@ -4,9 +4,9 @@ Terms used by https://copo-project.org/api/
 
 Note that some terms seemingly overlap with Schema.org however these are all applied at Sample level.
 
-Some of the terms are from  Darwin Tree of Life Project's Sample Manifest Standard Operating Procedure.
-<https://github.com/darwintreeoflife/metadata/blob/main/DToL_METADATA_SOP_v.2.4.pdf>
-and should probably move to a different namespace
+This extends the terms from Darwin Tree of Life Project's Sample Manifest Standard Operating Procedure
+that are in the namespace https://w3id.org/ro/terms/sample
+
 
 Maintainer: 
 - Stian Soiland-Reyes (@stain)
