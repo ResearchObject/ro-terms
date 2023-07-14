@@ -1,7 +1,9 @@
-[
-    "https://w3id.org/ro/crate/1.1/context",
-    {
-        "Book": "https://w3id.org/ro/terms/example#Book",
-        "title": "https://w3id.org/ro/terms/example#title"
-    }
-]
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "Book": "https://w3id.org/ro/terms/example#Book",
+            "title": "https://w3id.org/ro/terms/example#title"
+        }
+    ]
+}
