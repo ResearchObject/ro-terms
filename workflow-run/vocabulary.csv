@@ -7,3 +7,4 @@
 "sha1","Property","sha1","sha1 checksum as a hexadecimal string","File","Text"
 "sha256","Property","sha256","sha256 checksum as a hexadecimal string","File","Text"
 "sha512","Property","sha512","sha512 checksum as a hexadecimal string","File","Text"
+"environment","Property","environment","environment variables used by the application","SoftwareApplication SoftwareSourceCode ComputationalWorkflow CreateAction","FormalParameter PropertyValue"
