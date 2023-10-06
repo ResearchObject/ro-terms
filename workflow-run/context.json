@@ -9,7 +9,8 @@
             "md5": "https://w3id.org/ro/terms/workflow-run#md5",
             "sha1": "https://w3id.org/ro/terms/workflow-run#sha1",
             "sha256": "https://w3id.org/ro/terms/workflow-run#sha256",
-            "sha512": "https://w3id.org/ro/terms/workflow-run#sha512"
+            "sha512": "https://w3id.org/ro/terms/workflow-run#sha512",
+            "environment": "https://w3id.org/ro/terms/workflow-run#environment"
         }
     ]
 }
