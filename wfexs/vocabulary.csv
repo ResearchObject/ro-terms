@@ -1,0 +1,4 @@
+term,type,label,description,domain,range
+syntheticOutput,Property,"synthetic output","Is the related output File, Dataset or Collection 'synthetic'? (i.e. obtained using a glob pattern from other output)","FormalParameter","Boolean"
+globPattern,Property,"glob pattern","Glob pattern used to select the components of this 'synthetic' output File, Dataset or Collection","FormalParameter","Text"
+filledFrom, Property,"filled from","This output was (partially) fed from another output","FormalParameter","FormalParameter"
