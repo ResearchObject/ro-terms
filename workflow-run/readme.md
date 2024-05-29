@@ -8,8 +8,26 @@ Maintainer:
 * Namespace: <https://w3id.org/ro/terms/workflow-run#>
 * Context: [context.json](context.json)
 * Terms (CSV): [vocabulary.csv](vocabulary.csv)
+* Specification (JSON-LD): [wfrun.jsonld](wfrun.jsonld)
+* Specification (Turtle): [wfrun.ttl](wfrun.ttl)
+* Specification (nt): [wfrun.nt](wfrun.nt)
+* specification (rdf/xml): [wfrun.rdf](wfrun.rdf)
 
-## Terms
+## Content negotiation
+If you'd like to get a machine-readable version of the workflow run ro-terms, simply request the corresponding file with its associated header. For example, for a JSON-LD representation:
+
+```
+curl -sH "Accept:application/ld+json" -L https://w3id.org/ro/terms/workflow-run#
+```
+
+And for a Turtle representation:
+
+```
+curl -sH "Accept:text/turtle" -L https://w3id.org/ro/terms/workflow-run#
+```
+
+
+## Terms in detail
 
 <!-- 
 For updates to terms, remember to:
@@ -20,12 +38,12 @@ For updates to terms, remember to:
 -->
 
 | term | type | label | description | domain | range | 
-| ==== | ==== | ===== | =========== | ====== | ===== |
+| -----| ---- | ----- | ----------- | ------ | ----- |
 | ParameterConnection | Class | ParameterConnection | A connection between parameters of different applications | | |
 | ContainerImage | Class | ContainerImage | A containerization software container image | | |
 | DockerImage | Class | DockerImage | A Docker container image | | |
 | SIFImage | Class | SIFImage | A Singularity Image Format container image | | |
-| connection | Property | connection | A parameter connection created by this workflow | ComputationalWorkflow HowToStep | ParameterConnection | 
+| connection | Property | connection | A parameter connection created by this workflow | ComputationalWorkflow; HowToStep | ParameterConnection | 
 | sourceParameter | Property | sourceParameter | The source (upstream) parameter | ParameterConnection | FormalParameter | 
 | targetParameter | Property | targetParameter | The target (downstream) parameter | ParameterConnection | FormalParameter | 
 | md5 | Property | md5 | md5 checksum as a hexadecimal string | File ContainerImage | Text | 
