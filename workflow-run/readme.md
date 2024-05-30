@@ -54,3 +54,4 @@ For updates to terms, remember to:
 | registry | Property | registry | A service to register software products, such as container images | ContainerImage | Text | 
 | tag | Property | tag | A tag assigned to a software product, such as a container image | ContainerImage | Text | 
 | containerImage | Property | containerImage | A container image associated with this entity | CreateAction | ContainerImage URL |
+| resourceUsage | Property | resourceUsage | A resource usage item, such as peak memory | CreateAction | PropertyValue |

@@ -16,7 +16,8 @@
             "environment": "https://w3id.org/ro/terms/workflow-run#environment",
             "registry": "https://w3id.org/ro/terms/workflow-run#registry",
             "tag": "https://w3id.org/ro/terms/workflow-run#tag",
-            "containerImage": "https://w3id.org/ro/terms/workflow-run#containerImage"
+            "containerImage": "https://w3id.org/ro/terms/workflow-run#containerImage",
+            "resourceUsage": "https://w3id.org/ro/terms/workflow-run#resourceUsage"
         }
     ]
 }

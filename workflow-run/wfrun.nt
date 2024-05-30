@@ -43,6 +43,12 @@
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/ro/terms/workflow-run#> .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#label> "containerImage"@en-gb .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A container image associated with this entity"@en-gb .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://schema.org/domainIncludes> <http://schema.org/CreateAction> .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/ro/terms/workflow-run#> .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://www.w3.org/2000/01/rdf-schema#label> "resourceUsage"@en-gb .
+<https://w3id.org/ro/terms/workflow-run#resourceUsage> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource usage item, such as peak memory"@en-gb .
 <https://w3id.org/ro/terms/workflow-run#environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/ro/terms/workflow-run#environment> <http://schema.org/domainIncludes> <http://schema.org/CreateAction> .
 <https://w3id.org/ro/terms/workflow-run#environment> <http://schema.org/domainIncludes> <http://schema.org/SoftwareApplication> .

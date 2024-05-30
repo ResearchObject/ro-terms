@@ -17,7 +17,7 @@
             "registry": "https://w3id.org/ro/terms/workflow-run#registry",
             "tag": "https://w3id.org/ro/terms/workflow-run#tag",
             "containerImage": "https://w3id.org/ro/terms/workflow-run#containerImage",
-
+            "resourceUsage": "https://w3id.org/ro/terms/workflow-run#resourceUsage",
 	    "input": "https://bioschemas.org/properties/input",
 	    "output": "https://bioschemas.org/properties/output",
             "wfrun": "https://w3id.org/ro/terms/workflow-run#",
@@ -64,6 +64,9 @@
                 },
                 {
                     "@id": "wfrun:containerImage"
+                },
+                {
+                    "@id": "wfrun:resourceUsage"
                 },
                 {
                     "@id": "wfrun:md5"
@@ -394,6 +397,27 @@
             },
             "rangeIncludes": {
                 "@id": "wfrun:ContainerImage"
+            },
+            "domainIncludes": {
+                "@id": "CreateAction"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "wfrun:resourceUsage",
+            "rdfs:comment": {
+                "@language": "en-gb",
+                "@value": "A resource usage item, such as peak memory"
+            },
+            "rdfs:label": {
+                "@language": "en-gb",
+                "@value": "resourceUsage"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://w3id.org/ro/terms/workflow-run#"
+            },
+            "rangeIncludes": {
+                "@id": "PropertyValue"
             },
             "domainIncludes": {
                 "@id": "CreateAction"
