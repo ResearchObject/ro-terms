@@ -55,6 +55,13 @@ wfrun:containerImage rdf:type rdf:Property ;
                      rdfs:label "containerImage"@en-gb ;
                      rdfs:comment "A container image associated with this entity"@en-gb .
 
+wfrun:resourceUsage rdf:type rdf:Property ;
+                    s:domainIncludes s:CreateAction ;
+                    s:rangeIncludes s:PropertyValue ;
+                    rdfs:isDefinedBy wfrun: ;
+                    rdfs:label "resourceUsage"@en-gb ;
+                    rdfs:comment "A resource usage item, such as peak memory"@en-gb .
+
 wfrun:environment rdf:type rdf:Property ;
                   s:domainIncludes  s:CreateAction,
                                     s:SoftwareApplication,

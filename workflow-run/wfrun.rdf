@@ -61,6 +61,7 @@
     <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#sourceParameter"/>
     <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#environment"/>
     <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#containerImage"/>
+    <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#resourceUsage"/>
     <s:description>A Schema.org style Schema definitin of WRROC terms</s:description>
     <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#md5"/>
     <s:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#DockerImage"/>
@@ -84,6 +85,14 @@
     <rdfs:label xml:lang="en-gb">containerImage</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
     <s:rangeIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+    <s:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#resourceUsage">
+    <rdfs:comment xml:lang="en-gb">A resource usage item, such as peak memory</rdfs:comment>
+    <rdfs:label xml:lang="en-gb">resourceUsage</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+    <s:rangeIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#PropertyValue"/>
     <s:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
