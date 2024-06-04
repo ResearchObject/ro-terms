@@ -42,6 +42,9 @@
             "domainIncludes": {
                 "@id": "wfrun:ContainerImage"
             },
+            "rangeIncludes": {
+                "@id": "Text"
+            },
             "@type": "rdf:Property"
         },
         {
@@ -395,9 +398,14 @@
             "rdfs:isDefinedBy": {
                 "@id": "https://w3id.org/ro/terms/workflow-run#"
             },
-            "rangeIncludes": {
-                "@id": "wfrun:ContainerImage"
-            },
+            "rangeIncludes": [
+                {
+                    "@id": "wfrun:ContainerImage"
+                },
+                {
+                    "@id": "URL"
+                }
+            ],
             "domainIncludes": {
                 "@id": "CreateAction"
             },

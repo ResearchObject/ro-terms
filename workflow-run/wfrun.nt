@@ -40,6 +40,7 @@
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://schema.org/domainIncludes> <http://schema.org/CreateAction> .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://schema.org/rangeIncludes> <https://w3id.org/ro/terms/workflow-run#ContainerImage> .
+<https://w3id.org/ro/terms/workflow-run#containerImage> <http://schema.org/rangeIncludes> <http://schema.org/URL> .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/ro/terms/workflow-run#> .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#label> "containerImage"@en-gb .
 <https://w3id.org/ro/terms/workflow-run#containerImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A container image associated with this entity"@en-gb .
@@ -68,6 +69,7 @@
 <https://w3id.org/ro/terms/workflow-run#md5> <http://www.w3.org/2000/01/rdf-schema#comment> "md5 checksum as a hexadecimal string"@en-gb .
 <https://w3id.org/ro/terms/workflow-run#registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/ro/terms/workflow-run#registry> <http://schema.org/domainIncludes> <https://w3id.org/ro/terms/workflow-run#ContainerImage> .
+<https://w3id.org/ro/terms/workflow-run#registry> <http://schema.org/rangeIncludes> <http://schema.org/Text> .
 <https://w3id.org/ro/terms/workflow-run#registry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/ro/terms/workflow-run#> .
 <https://w3id.org/ro/terms/workflow-run#registry> <http://www.w3.org/2000/01/rdf-schema#label> "registry"@en-gb .
 <https://w3id.org/ro/terms/workflow-run#registry> <http://www.w3.org/2000/01/rdf-schema#comment> "A service to register software products, such as container images"@en-gb .
