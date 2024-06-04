@@ -85,6 +85,7 @@
     <rdfs:label xml:lang="en-gb">containerImage</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
     <s:rangeIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+    <s:rangeIncludes rdf:resource="http://schema.org/URL"/>
     <s:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -165,6 +166,7 @@
     <rdfs:label xml:lang="en-gb">registry</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
     <s:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+    <s:rangeIncludes rdf:resource="http://schema.org/Text"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#md5">
