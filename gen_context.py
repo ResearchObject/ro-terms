@@ -37,7 +37,7 @@ def main(args):
     context = build_context(ns_dir.name, vocab_path,
                             ro_crate_version=args.ro_crate_version)
     if not args.output:
-        args.output = ns_dir / "context.json"
+        args.output = ns_dir / "context.jsonld"
     with open(args.output, "wt", encoding="utf8") as f:
         json.dump(context, f, ensure_ascii=False, indent=4, sort_keys=False)
 

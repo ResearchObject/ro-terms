@@ -1,0 +1,10 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "syntheticOutput": "https://w3id.org/ro/terms/wfexs#syntheticOutput",
+            "globPattern": "https://w3id.org/ro/terms/wfexs#globPattern",
+            "filledFrom": "https://w3id.org/ro/terms/wfexs#filledFrom"
+        }
+    ]
+}

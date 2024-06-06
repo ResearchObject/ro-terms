@@ -1,0 +1,85 @@
+{
+  "@context" : {
+    "DataCubeCollection" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/DataCubeCollection"
+    },
+    "ExecutableResearchObject" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/ExecutableResearchObject"
+    },
+    "temporalReferenceSystem" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/temporalReferenceSystem"
+    },
+    "productVersion" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/productVersion"
+    },
+    "temporalStepResolution" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/temporalStepResolution"
+    },
+    "lowestElevation" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/lowestElevation"
+    },
+    "maxValue" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/maxValue"
+    },
+    "dataTypeUnit" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/dataTypeUnit"
+    },
+    "noDataValue" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/noDataValue"
+    },
+    "spatialStepResolution" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/spatialStepResolution"
+    },
+    "dataQuality" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/dataQuality"
+    },
+    "otherDataAcquisitionSystem" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/otherDataAcquisitionSystem"
+    },
+    "productType" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/productType"
+    },
+    "processor" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/processor"
+    },
+    "instrument" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/instrument"
+    },
+    "coordinateReferenceSystem" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/coordinateReferenceSystem"
+    },
+    "dataType" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/dataType"
+    },
+    "linksToResources" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/linksToResources"
+    },
+    "highestElevation" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/highestElevation"
+    },
+    "verticalReferenceSystem" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/verticalReferenceSystem"
+    },
+    "platform" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/platform"
+    },
+    "extent" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/extent"
+    },
+    "minValue" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/minValue"
+    },
+    "DataCubeProduct" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/DataCubeProduct"
+    },
+    "JupyterNotebook" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/JupyterNotebook"
+    },
+    "verticalStepResolution" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/verticalStepResolution"
+    },
+    "processingLevel" : {
+      "@id" : "https://w3id.org/ro/terms/earth-science/processingLevel"
+    }
+  }
+}

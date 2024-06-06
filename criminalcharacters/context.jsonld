@@ -1,0 +1,10 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "education": "https://w3id.org/ro/terms/criminalcharacters#education",
+            "interests": "https://w3id.org/ro/terms/criminalcharacters#interests",
+            "Person": "https://w3id.org/ro/terms/criminalcharacters#Person"
+        }
+    ]
+}

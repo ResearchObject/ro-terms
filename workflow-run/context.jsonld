@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "ParameterConnection": "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+            "ContainerImage": "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+            "DockerImage": "https://w3id.org/ro/terms/workflow-run#DockerImage",
+            "SIFImage": "https://w3id.org/ro/terms/workflow-run#SIFImage",
+            "connection": "https://w3id.org/ro/terms/workflow-run#connection",
+            "sourceParameter": "https://w3id.org/ro/terms/workflow-run#sourceParameter",
+            "targetParameter": "https://w3id.org/ro/terms/workflow-run#targetParameter",
+            "md5": "https://w3id.org/ro/terms/workflow-run#md5",
+            "sha1": "https://w3id.org/ro/terms/workflow-run#sha1",
+            "sha256": "https://w3id.org/ro/terms/workflow-run#sha256",
+            "sha512": "https://w3id.org/ro/terms/workflow-run#sha512",
+            "environment": "https://w3id.org/ro/terms/workflow-run#environment",
+            "registry": "https://w3id.org/ro/terms/workflow-run#registry",
+            "tag": "https://w3id.org/ro/terms/workflow-run#tag",
+            "containerImage": "https://w3id.org/ro/terms/workflow-run#containerImage",
+            "resourceUsage": "https://w3id.org/ro/terms/workflow-run#resourceUsage"
+        }
+    ]
+}

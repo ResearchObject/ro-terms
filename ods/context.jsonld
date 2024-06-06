@@ -1,0 +1,16 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "Specimen": "https://w3id.org/ro/terms/ods#Specimen",
+            "SpecimenRecord": "https://w3id.org/ro/terms/ods#SpecimenRecord",
+            "authoritative": "https://w3id.org/ro/terms/ods#authoritative",
+            "modified": "https://w3id.org/ro/terms/ods#modified",
+            "midsLevel": "https://w3id.org/ro/terms/ods#midsLevel",
+            "physicalSpecimenId": "https://w3id.org/ro/terms/ods#physicalSpecimenId",
+            "institution": "https://w3id.org/ro/terms/ods#institution",
+            "materialType": "https://w3id.org/ro/terms/ods#materialType",
+            "name": "https://w3id.org/ro/terms/ods#name"
+        }
+    ]
+}

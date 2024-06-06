@@ -1,0 +1,8 @@
+[
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+        "Person": "https://w3id.org/ro/terms/#Person",
+        "fullName": "https://w3id.org/ro/terms/#fullName",
+        "friend_of": "https://w3id.org/ro/terms/#friend_of"
+    }
+]

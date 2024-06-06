@@ -6,7 +6,7 @@ Maintainer:
 - The [Workflow Run RO-Crate](https://www.researchobject.org/workflow-run-crate/) working group
 
 * Namespace: <https://w3id.org/ro/terms/workflow-run#>
-* Context: [context.json](context.json)
+* Context: [context.jsonld](context.jsonld)
 * Terms (CSV): [vocabulary.csv](vocabulary.csv)
 * Specification (JSON-LD): [wfrun.jsonld](wfrun.jsonld)
 * Specification (Turtle): [wfrun.ttl](wfrun.ttl)

@@ -17,7 +17,7 @@ To download the terms in CSV you can do:
 
 And if you want them in json-ld:
 
-`curl -H "accept:application/ld+json" -L https://w3id.org/ro/terms > context.json`
+`curl -H "accept:application/ld+json" -L https://w3id.org/ro/terms > context.jsonld`
 
 Equivalent content negotiation is available for each of the [folders](https://github.com/ResearchObject/ro-terms/tree/master) registered under ro-terms, e.g. <https://w3id.org/ro/terms/earth-science#>
 
