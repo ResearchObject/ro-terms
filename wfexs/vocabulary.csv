@@ -1,4 +1,9 @@
 term,type,label,description,domain,range
 syntheticOutput,Property,"synthetic output","Is the related output File, Dataset or Collection 'synthetic'? (i.e. obtained using a glob pattern from other output)","FormalParameter","Boolean"
 globPattern,Property,"glob pattern","Glob pattern used to select the components of this 'synthetic' output File, Dataset or Collection","FormalParameter","Text"
-filledFrom, Property,"filled from","The path of this output was either setup through this parameter, or it is (partially) fed from another output","FormalParameter","Text"
+filledFrom,Property,"filled from","The path of this output was either setup through this parameter, or it is (partially) fed from another output","FormalParameter","Text"
+contentWithURIs,Property,"content with URIs","Does the contents of this input contain URIs to be fetched? It is very common in nf-core workflows where a tabular file works as a sort of BOM (bill of materials)","FormalParameter","Boolean"
+headerRows,Property,"number of header rows","If encodingFormat is text/csv, the number of header rows to skip before processing the content","FormalParameter","Integer"
+rowSep,Property,"row separator","If encodingFormat is text/csv, the string used to split the content in lines. By default it is the new line","FormalParameter","Text"
+columnSep,Property,"column separator","If encodingFormat is text/csv, the regular expression used to split the tabulated content by columns","FormalParameter","Text"
+uriColumns,Property,"column numbers with URIs","If encodingFormat is text/csv, the zero-based number of the columns having URIs","FormalParameter","Integer"
