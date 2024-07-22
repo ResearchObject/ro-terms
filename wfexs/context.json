@@ -1,15 +1,12 @@
 {
-    "@context": [
-        "https://w3id.org/ro/crate/1.1/context",
-        {
-            "syntheticOutput": "https://w3id.org/ro/terms/wfexs#syntheticOutput",
-            "globPattern": "https://w3id.org/ro/terms/wfexs#globPattern",
-            "filledFrom": "https://w3id.org/ro/terms/wfexs#filledFrom",
-            "contentWithURIs": "https://w3id.org/ro/terms/wfexs#contentWithURIs",
-            "headerRows": "https://w3id.org/ro/terms/wfexs#headerRows",
-            "rowSep": "https://w3id.org/ro/terms/wfexs#rowSep",
-            "columnSep": "https://w3id.org/ro/terms/wfexs#columnSep",
-            "uriColumns": "https://w3id.org/ro/terms/wfexs#uriColumns"
-        }
-    ]
+    "@context": {
+        "syntheticOutput": "https://w3id.org/ro/terms/wfexs#syntheticOutput",
+        "globPattern": "https://w3id.org/ro/terms/wfexs#globPattern",
+        "filledFrom": "https://w3id.org/ro/terms/wfexs#filledFrom",
+        "contentWithURIs": "https://w3id.org/ro/terms/wfexs#contentWithURIs",
+        "headerRows": "https://w3id.org/ro/terms/wfexs#headerRows",
+        "rowSep": "https://w3id.org/ro/terms/wfexs#rowSep",
+        "columnSep": "https://w3id.org/ro/terms/wfexs#columnSep",
+        "uriColumns": "https://w3id.org/ro/terms/wfexs#uriColumns"
+    }
 }

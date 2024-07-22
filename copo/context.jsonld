@@ -1,7 +1,5 @@
 {
-  "@context": [
-    "https://w3id.org/ro/crate/1.1/context",
-    {
+  "@context": {
       "associated_tol_project": "https://w3id.org/ro/terms/copo#associated_tol_project",
       "biosampleAccession": "https://w3id.org/ro/terms/copo#biosampleAccession",
       "boldAccession": "https://w3id.org/ro/terms/copo#boldAccession",
@@ -90,5 +88,4 @@
     "VOUCHER_INSTITUTION": "https://w3id.org/ro/terms/sample#VOUCHER_INSTITUTION",
     "OTHER_INFORMATION": "https://w3id.org/ro/terms/sample#OTHER_INFORMATION"
     }
-  ]
 }
