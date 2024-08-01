@@ -1,0 +1,5 @@
+term,type,label,description,domain,range
+maxTime,Property,maxTime,"Maximum time of all executions",ResourceUsage,Integer
+minTime,Property,minTime,"Minimum time of all executions",ResourceUsage,Integer
+avgTime,Property,avgTime,"Average time of all executions",ResourceUsage,Integer
+executions,Property,executions,"Number of executions performed",ResourceUsage,Integer
