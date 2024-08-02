@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "maxTime": "https://w3id.org/ro/terms/compss#maxTime",
+        "minTime": "https://w3id.org/ro/terms/compss#minTime",
+        "avgTime": "https://w3id.org/ro/terms/compss#avgTime",
+        "executions": "https://w3id.org/ro/terms/compss#executions",
+        "executionTime": "https://w3id.org/ro/terms/compss#executionTime"
+    }
+}

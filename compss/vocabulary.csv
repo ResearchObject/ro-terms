@@ -1,0 +1,6 @@
+term,type,label,description,domain,range
+maxTime,Property,maxTime,"Maximum time for all executions of a method",ResourceUsage,Integer
+minTime,Property,minTime,"Minimum time for all executions of a method",ResourceUsage,Integer
+avgTime,Property,avgTime,"Average time for all executions of a method",ResourceUsage,Integer
+executions,Property,executions,"Number of executions performed for a method",ResourceUsage,Integer
+executionTime, Property, executionTime,"Total workflow execution time",ResourceUsage,Integer
