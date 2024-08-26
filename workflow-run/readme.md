@@ -10,7 +10,7 @@ Maintainer:
 * Terms (CSV): [vocabulary.csv](vocabulary.csv)
 * Specification (JSON-LD): [wfrun.jsonld](wfrun.jsonld)
 * Specification (Turtle): [wfrun.ttl](wfrun.ttl)
-* Specification (nt): [wfrun.nt](wfrun.nt)
+* Specification (ntriples): [wfrun.nt](wfrun.nt)
 * specification (rdf/xml): [wfrun.rdf](wfrun.rdf)
 
 ## Content negotiation
@@ -24,6 +24,17 @@ And for a Turtle representation:
 
 ```
 curl -sH "Accept:text/turtle" -L https://w3id.org/ro/terms/workflow-run#
+```
+
+## Usage in OWL ontologies
+
+The terms are defined in _Schema.org style schemas_, similar to [Schema.org's definitions](https://schema.org/docs/developers.html), using `schema:domainIncludes` and `schema:rangeIncludes` for property definitions. 
+
+For compatibility with users of OWL ontologies we have also included minimal definitions of `ObjectProperty` and `DatatypeProperty`, these are meant to be used in conjuction with the experimental OWL definition of Schema.org. For example, importing both can be achieved with:
+
+```
+<> a owl:Ontology;
+  owl:imports <https://schema.org/docs/schemaorg.owl>, <https://w3id.org/ro/terms/workflow-run#> .
 ```
 
 
