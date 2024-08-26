@@ -8,26 +8,6 @@
 @prefix wfrun:      <https://w3id.org/ro/terms/workflow-run#> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 
-wfrun:  rdf:type                       s:DefinedTermSet , owl:Ontology;
-        dct:creator                    <https://researchobject.org/workflow-run-crate/>;
-        dct:description                "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl";
-        dct:license                    <http://spdx.org/licenses/Apache-2.0>;
-        dct:title                      "Workflow Run Crate namespace";
-        vann:preferredNamespacePrefix  "wfrun";
-        vann:preferredNamespaceUri     "https://w3id.org/ro/terms/workflow-run#";
-        s:creator                      <https://researchobject.org/workflow-run-crate/>;
-        s:description                  "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl";
-        s:hasDefinedTerm               wfrun:containerImage , wfrun:connection , wfrun:environment , wfrun:md5 , wfrun:registry , wfrun:sha1 , wfrun:sha256 , wfrun:sha512 , wfrun:sourceParameter , wfrun:SIFImage , wfrun:ParameterConnection , wfrun:DockerImage , wfrun:ContainerImage , wfrun:targetParameter , wfrun:tag;
-        s:license                      <http://spdx.org/licenses/Apache-2.0>;
-        s:name                         "Workflow Run Crate namespace";
-        s:url                          "https://www.researchobject.org/ro-terms/workflow-run/";
-        s:version                      "0.6.0" .
-
-<https://researchobject.org/workflow-run-crate/>
-        rdf:type    s:Project , dct:Agent;
-        rdfs:label  "Workflow Run Crate task force"@en-GB;
-        s:name      "Workflow Run Crate task force"@en-GB .
-
 wfrun:targetParameter
         rdf:type          rdf:Property , owl:ObjectProperty;
         rdfs:comment      "The target (downstream) parameter"@en-GB;
@@ -179,3 +159,22 @@ wfrun:ContainerImage  rdf:type  rdfs:Class , owl:Class;
         rdfs:label        "ContainerImage"@en-GB;
         rdfs:subClassOf   s:CreativeWork .
 
+wfrun:  rdf:type                       s:DefinedTermSet , owl:Ontology;
+        dct:creator                    <https://researchobject.org/workflow-run-crate/>;
+        dct:description                "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl";
+        dct:license                    <http://spdx.org/licenses/Apache-2.0>;
+        dct:title                      "Workflow Run Crate namespace";
+        vann:preferredNamespacePrefix  "wfrun";
+        vann:preferredNamespaceUri     "https://w3id.org/ro/terms/workflow-run#";
+        s:creator                      <https://researchobject.org/workflow-run-crate/>;
+        s:description                  "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl";
+        s:hasDefinedTerm               wfrun:sha1 , wfrun:registry , wfrun:md5 , wfrun:environment , wfrun:connection , wfrun:containerImage , wfrun:sha256 , wfrun:sha512 , wfrun:sourceParameter , wfrun:tag , wfrun:targetParameter , wfrun:ContainerImage , wfrun:DockerImage , wfrun:ParameterConnection , wfrun:SIFImage;
+        s:license                      <http://spdx.org/licenses/Apache-2.0>;
+        s:name                         "Workflow Run Crate namespace";
+        s:url                          "https://www.researchobject.org/ro-terms/workflow-run/";
+        s:version                      "0.6.0" .
+
+<https://researchobject.org/workflow-run-crate/>
+        rdf:type    s:Project , dct:Agent;
+        rdfs:label  "Workflow Run Crate task force"@en-GB;
+        s:name      "Workflow Run Crate task force"@en-GB .
