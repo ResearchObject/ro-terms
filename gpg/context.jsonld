@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "EncryptedContextEntity": "https://w3id.org/ro/terms/gpg#EncryptedContextEntity",
+        "EncryptedGraphMessage": "https://w3id.org/ro/terms/gpg#EncryptedGraphMessage",
+        "pubkey_fingerprints": "https://w3id.org/ro/terms/gpg#pubkey_fingerprints",
+        "recipient": "https://w3id.org/ro/terms/gpg#recipient",
+        "keyserver": "https://w3id.org/ro/terms/gpg#keyserver",
+        "recipientOf": "https://w3id.org/ro/terms/gpg#EncryptedGraphMessage"
+    }
+}
