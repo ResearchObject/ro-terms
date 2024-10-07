@@ -2,6 +2,6 @@ term,type,label,description,domain,range
 EncryptedContextEntity,Class,EncryptedContextEntity,"""A context entity that should be encrypted when written""",,
 EncryptedGraphMessage,Class,EncryptedGraphMessage,"""A message containing an encrypted section of RO-Crate @graph""",,
 pubkeyFingerprints,Property,pubkeyFingerprints,"""Fingerprints that refer to GPG public keys""","ContactPoint,Person,Audience",string
-recipient,Property,recipient,"""Recipient of a GPG message""","EncryptedContextEntity,EncryptedGraphMessage","ContactPoint,Person,Audience"
+encryptedTo,Property,encryptedTo,"""Recipient of a GPG message""","EncryptedContextEntity,EncryptedGraphMessage","ContactPoint,Person,Audience"
 keyserver,Property,keyserver,“Keyserver address for retrieval of GPG public keys”,"ContactPoint,Person,Audience",URL
-recipientOf,Property,recipientOf,"""Message this entity is a recipent of, inverse of recipient""","ContactPoint,Person,Audience","EncryptedContextEntity,EncryptedGraphMessage"
+encryptedFor,Property,encryptedFor,"""Message this entity is a recipient of, inverse of recipient""","ContactPoint,Person,Audience","EncryptedContextEntity,EncryptedGraphMessage"
