@@ -3,6 +3,7 @@
         "Person": "https://w3id.org/ro/terms/#Person",
         "fullName": "https://w3id.org/ro/terms/#fullName",
         "friend_of": "https://w3id.org/ro/terms/#friend_of",
-        "sdConformsTo": "https://w3id.org/ro/terms/#sdConformsTo"
+        "sdConformsTo": "https://w3id.org/ro/terms/#sdConformsTo",
+        "localPath": "https://w3id.org/ro/terms/#localPath"
     }
 }

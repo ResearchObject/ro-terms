@@ -3,3 +3,4 @@ Person,Class,person,"""A term to define persons in the RO namespace""",,
 fullName,Property,name,"""Name of a Person""",Person,string
 friend_of,Property,friend of,"""Property to indicate that a person is friend of another person""",Person,Person
 sdConformsTo,Property,structured data conforms to,"""The profile this entity's structured metadata markup (e.g. the JSON-LD describing a PDF) conforms to.""",Thing,CreativeWork
+localPath,Property,local path,"""A recommended URI path to download this work to. Intended to be used on web-based data entities within RO-Crates.""",CreativeWork,Text
