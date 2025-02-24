@@ -4,3 +4,12 @@ minTime,Property,minTime,"Minimum time for all executions of a method",ResourceU
 avgTime,Property,avgTime,"Average time for all executions of a method",ResourceUsage,Integer
 executions,Property,executions,"Number of executions performed for a method",ResourceUsage,Integer
 executionTime, Property, executionTime,"Total workflow execution time",ResourceUsage,Integer
+cpuAvg,Property,cpuAvg,"Average CPU usage percentage recorded during the execution",ResourceUsage,Float
+cpuMax,Property,cpuMax,"Maximum CPU usage percentage recorded during the execution",ResourceUsage,Float
+memAvg,Property,memAvg,"Average memory usage percentage recorded during the execution",ResourceUsage,Float
+memMin,Property,memMin,"Minimum memory usage percentage recorded during the execution",ResourceUsage,Float
+memMax,Property,memMax,"Maximum memory usage percentage recorded during the execution",ResourceUsage,Float
+byteSent,Property,byteSent,"Total bytes sent during the execution",ResourceUsage,Integer
+byteRecv,Property,byteRecv,"Total bytes received during the execution",ResourceUsage,Integer
+byteRead,Property,byteRead,"Total bytes read from disk during the execution",ResourceUsage,Integer
+byteWritten,Property,byteWritten,"Total bytes written to disk during the execution",ResourceUsage,Integer
