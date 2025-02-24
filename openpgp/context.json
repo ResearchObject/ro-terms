@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "EncryptedContextEntity": "https://w3id.org/ro/terms/openpgp#EncryptedContextEntity",
+        "EncryptedGraphMessage": "https://w3id.org/ro/terms/openpgp#EncryptedGraphMessage",
+        "pubkey_fingerprints": "https://w3id.org/ro/terms/openpgp#pubkey_fingerprints",
+        "encryptedTo": "https://w3id.org/ro/terms/openpgp#encryptedTo",
+        "keyserver": "https://w3id.org/ro/terms/openpgp#keyserver",
+        "encryptedFor": "https://w3id.org/ro/terms/openpgp#encryptedFor"
+    }
+}
