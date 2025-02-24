@@ -4,6 +4,15 @@
         "minTime": "https://w3id.org/ro/terms/compss#minTime",
         "avgTime": "https://w3id.org/ro/terms/compss#avgTime",
         "executions": "https://w3id.org/ro/terms/compss#executions",
-        "executionTime": "https://w3id.org/ro/terms/compss#executionTime"
+        "executionTime": "https://w3id.org/ro/terms/compss#executionTime",
+        "cpuAvg": "https://w3id.org/ro/terms/compss#cpuAvg",
+        "cpuMax": "https://w3id.org/ro/terms/compss#cpuMax",
+        "memAvg": "https://w3id.org/ro/terms/compss#memAvg",
+        "memMin": "https://w3id.org/ro/terms/compss#memMin",
+        "memMax": "https://w3id.org/ro/terms/compss#memMax",
+        "byteSent": "https://w3id.org/ro/terms/compss#byteSent",
+        "byteRecv": "https://w3id.org/ro/terms/compss#byteRecv",
+        "byteRead": "https://w3id.org/ro/terms/compss#byteRead",
+        "byteWritten": "https://w3id.org/ro/terms/compss#byteWritten"
     }
 }
