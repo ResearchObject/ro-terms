@@ -1,0 +1,2 @@
+term,type,label,description,domain,range
+columnIndex,Property,columnIndex,"""Index of a column the property occupies in a tabular information representation.""",PropertyValue,Integer
