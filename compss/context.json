@@ -13,6 +13,11 @@
         "byteSent": "https://w3id.org/ro/terms/compss#byteSent",
         "byteRecv": "https://w3id.org/ro/terms/compss#byteRecv",
         "byteRead": "https://w3id.org/ro/terms/compss#byteRead",
-        "byteWritten": "https://w3id.org/ro/terms/compss#byteWritten"
+        "byteWritten": "https://w3id.org/ro/terms/compss#byteWritten",
+        "gpuAvg": "https://w3id.org/ro/terms/compss#gpuAvg",
+        "gpuMax": "https://w3id.org/ro/terms/compss#gpuMax",
+        "gpuMemAvg": "https://w3id.org/ro/terms/compss#gpuMemAvg",
+        "gpuMemMax": "https://w3id.org/ro/terms/compss#gpuMemMax",
+        "gpuMemMin": "https://w3id.org/ro/terms/compss#gpuMemMin"
     }
 }
