@@ -13,3 +13,8 @@ byteSent,Property,byteSent,"Total bytes sent during the execution",ResourceUsage
 byteRecv,Property,byteRecv,"Total bytes received during the execution",ResourceUsage,Integer
 byteRead,Property,byteRead,"Total bytes read from disk during the execution",ResourceUsage,Integer
 byteWritten,Property,byteWritten,"Total bytes written to disk during the execution",ResourceUsage,Integer
+gpuAvg,Property,gpuAvg,"Average GPU usage percentage recorded during the execution",ResourceUsage,Float
+gpuMax,Property,gpuMax,"Maximum GPU usage percentage recorded during the execution",ResourceUsage,Float
+gpuMemAvg,Property,gpuMemAvg,"Average GPU memory usage percentage recorded during the execution",ResourceUsage,Float
+gpuMemMax,Property,gpuMemMax,"Maximum GPU memory usage percentage recorded during the execution",ResourceUsage,Float
+gpuMemMin,Property,gpuMemMin,"Minimum GPU memory usage percentage recorded during the execution",ResourceUsage,Float
