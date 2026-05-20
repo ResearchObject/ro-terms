@@ -1,0 +1,30 @@
+term,type,label,description,domain,range
+"resourceUsage","Property","resourceUsage","A resource usage item, such as peak memory","ActivateAction","PropertyValue"
+TreecriptMetrics,Class,Treecript metrics,Metrics which can be gathered by Treecript,,
+pid,Property,PID,Process ID,TreecriptMetrics,Integer
+virt,Property,Virt,Virtual memory size (matches top VIRT),TreecriptMetrics,Integer
+res,Property,Res,Resident set size — non-swapped physical memory (matches top RES),TreecriptMetrics,Integer
+cpu,Property,CPU,CPU utilization as a percentage (can exceed 100% for multithreaded processes),TreecriptMetrics,Float
+memory,Property,Memory,RSS memory as a percentage of total physical system memory,TreecriptMetrics,Float
+tcp_connections,Property,TCP connections,Number of open TCP connections,TreecriptMetrics,Integer
+thread_count,Property,Thread Count,Number of threads (non-cumulative),TreecriptMetrics,Integer
+user,Property,User,Time spent in user mode (seconds),TreecriptMetrics,Float
+system,Property,System,Time spent in kernel mode (seconds),TreecriptMetrics,Float
+children_user,Property,Children_User,User time of child processes (always 0 on Windows/macOS),TreecriptMetrics,Float
+children_system,Property,Children_System,System time of child processes (always 0 on Windows/macOS),TreecriptMetrics,Float
+io,Property,IO,Time waiting for blocking I/O (Linux only),TreecriptMetrics,Float
+uss,Property,uss,Unique Set Size — memory freed if this process terminated now,TreecriptMetrics,Integer
+swap,Property,swap,Memory swapped out to disk,TreecriptMetrics,Integer
+processor_num,Property,processor_num,Number of unique CPU processors used,TreecriptMetrics,Integer
+core_num,Property,core_num,Number of unique CPU cores used,TreecriptMetrics,Integer
+cpu_num,Property,cpu_num,Number of unique physical CPUs used,TreecriptMetrics,Integer
+processor_ids,Property,processor_ids,IDs of CPU processors used (space-separated),TreecriptMetrics,String
+core_ids,Property,core_ids,IDs of CPU cores used (space-separated),TreecriptMetrics,String
+cpu_ids,Property,cpu_ids,IDs of physical CPUs used (space-separated),TreecriptMetrics,String
+process_status,Property,process_status,Process status string (e.g. sleeping, running),TreecriptMetrics,String
+read_count,Property,read_count,Cumulative number of read syscalls,TreecriptMetrics,Integer
+write_count,Property,write_count,Cumulative number of write syscalls,TreecriptMetrics,Integer
+read_bytes,Property,read_bytes,Bytes physically read from disk (cumulative),TreecriptMetrics,Integer
+write_bytes,Property,write_bytes,Bytes physically written to disk (cumulative),TreecriptMetrics,Integer
+read_chars,Property,read_chars,Bytes passed to read syscalls (cumulative, Linux only),TreecriptMetrics,Integer
+write_chars,Property,write_chars,Bytes passed to write syscalls (cumulative, Linux only),TreecriptMetrics,Integer

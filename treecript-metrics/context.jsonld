@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "resourceUsage": "https://w3id.org/ro/terms/treecript-metrics#resourceUsage",
+        "TreecriptMetrics": "https://w3id.org/ro/terms/treecript-metrics#TreecriptMetrics",
+        "pid": "https://w3id.org/ro/terms/treecript-metrics#pid",
+        "virt": "https://w3id.org/ro/terms/treecript-metrics#virt",
+        "res": "https://w3id.org/ro/terms/treecript-metrics#res",
+        "cpu": "https://w3id.org/ro/terms/treecript-metrics#cpu",
+        "memory": "https://w3id.org/ro/terms/treecript-metrics#memory",
+        "tcp_connections": "https://w3id.org/ro/terms/treecript-metrics#tcp_connections",
+        "thread_count": "https://w3id.org/ro/terms/treecript-metrics#thread_count",
+        "user": "https://w3id.org/ro/terms/treecript-metrics#user",
+        "system": "https://w3id.org/ro/terms/treecript-metrics#system",
+        "children_user": "https://w3id.org/ro/terms/treecript-metrics#children_user",
+        "children_system": "https://w3id.org/ro/terms/treecript-metrics#children_system",
+        "io": "https://w3id.org/ro/terms/treecript-metrics#io",
+        "uss": "https://w3id.org/ro/terms/treecript-metrics#uss",
+        "swap": "https://w3id.org/ro/terms/treecript-metrics#swap",
+        "processor_num": "https://w3id.org/ro/terms/treecript-metrics#processor_num",
+        "core_num": "https://w3id.org/ro/terms/treecript-metrics#core_num",
+        "cpu_num": "https://w3id.org/ro/terms/treecript-metrics#cpu_num",
+        "processor_ids": "https://w3id.org/ro/terms/treecript-metrics#processor_ids",
+        "core_ids": "https://w3id.org/ro/terms/treecript-metrics#core_ids",
+        "cpu_ids": "https://w3id.org/ro/terms/treecript-metrics#cpu_ids",
+        "process_status": "https://w3id.org/ro/terms/treecript-metrics#process_status",
+        "read_count": "https://w3id.org/ro/terms/treecript-metrics#read_count",
+        "write_count": "https://w3id.org/ro/terms/treecript-metrics#write_count",
+        "read_bytes": "https://w3id.org/ro/terms/treecript-metrics#read_bytes",
+        "write_bytes": "https://w3id.org/ro/terms/treecript-metrics#write_bytes",
+        "read_chars": "https://w3id.org/ro/terms/treecript-metrics#read_chars",
+        "write_chars": "https://w3id.org/ro/terms/treecript-metrics#write_chars"
+    }
+}
