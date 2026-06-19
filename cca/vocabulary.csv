@@ -1,0 +1,51 @@
+term,type,label,description,domain,range
+Network,Class,network,"A network entity representing an observational or research network.",,
+Campaign,Class,campaign,"A campaign entity representing a coordinated observation, sampling, or data collection activity.",,
+Satellite,Class,satellite,"A satellite entity representing an Earth observation or spaceborne platform.",,
+scenarioId,DataProperty,scenarioId,"Identifier of the associated scenario.",,Text
+dmp_id,DataProperty,dmpId,"Identifier of the associated Data Management Plan (DMP).",,Text
+expectedDeliverable,Property,expectedDeliverable,"Expected deliverable or output associated with the resource.",,Text
+reusedData,Property,reusedData,"Identifies external datasets or resources reused by the described resource.",,Dataset|URL
+generalWPProgram,DataProperty,generalWPProgram,"General work programme under which the activity is performed.",,Text
+hasNetwork,ObjectProperty,hasNetwork,"Links a resource to the associated Network.",,Network
+networkManager,Property,networkManager,"Person or organisation responsible for managing the network.",,Person|Organization
+IlicoIntegrationYear,DataProperty,ilicoIntegrationYear,"Year of integration into the ILICO infrastructure.",,Integer
+scientificIssues,DataProperty,scientificIssues,"Scientific issues or research challenges addressed.",,Text
+averageNetworkCost,DataProperty,averageNetworkCost,"Average cost associated with the network.",,Number
+averageDataCost,DataProperty,averageDataCost,"Average cost associated with data acquisition or management.",,Number
+dataNature,DataProperty,dataNature,"Describes the nature or type of the data.",,Text
+stability,DataProperty,stability,"Describes the stability or persistence of the data source.",,Text
+acquisitionMethod,DataProperty,acquisitionMethod,"Method used to acquire the data.",,Text
+acquisitionFrequency,DataProperty,acquisitionFrequency,"Frequency at which data are acquired.",,Text
+surveyAutomation,DataProperty,surveyAutomation,"Level or type of automation used during data collection.",,Text
+dataRecoveryDelay,DataProperty,dataRecoveryDelay,"Delay between data acquisition and data availability.",,Duration
+validationApproach,DataProperty,validationApproach,"Approach used for data validation.",,Text
+qualityApproach,DataProperty,qualityApproach,"Approach used for quality assurance and quality control.",,Text
+stationsStudied,DataProperty,stationsStudied,"Number or list of stations included in the study.",,Integer|Text
+datasetNumber,DataProperty,datasetNumber,"Number of datasets produced or managed.",,Integer
+processingManager,Property,processingManager,"Person or organisation responsible for data processing.",,Person|Organization
+processingAutomation,DataProperty,processingAutomation,"Level or type of automation used during processing.",,Text
+processingMethod,DataProperty,processingMethod,"Method used for data processing.",,Text
+preProcessingLevel,DataProperty,preProcessingLevel,"Pre-processing level applied to the data.",,Text
+analysisAutomation,DataProperty,analysisAutomation,"Level or type of automation used during analysis.",,Text
+analysisMethod,DataProperty,analysisMethod,"Method used for data analysis.",,Text
+preAnalysisLevel,DataProperty,preAnalysisLevel,"Pre-analysis processing level applied to the data.",,Text
+postAnalysisLevel,DataProperty,postAnalysisLevel,"Post-analysis processing level applied to the data.",,Text
+hasProductNames,Property,hasProductNames,"Names of products generated from the data or workflow.",,Text
+conservationManager,Property,conservationManager,"Person or organisation responsible for data conservation or preservation.",,Person|Organization
+dataSelectionMethod,DataProperty,dataSelectionMethod,"Method used to select data for preservation or dissemination.",,Text
+fileNamingConvention,DataProperty,fileNamingConvention,"Naming convention applied to files.",,Text
+supportType,DataProperty,supportType,"Type of storage or preservation support used.",,Text
+dataAccessManager,Property,dataAccessManager,"Person or organisation responsible for managing data access.",,Person|Organization
+databaseAvailability,DataProperty,databaseAvailability,"Availability status of the associated database.",,Text
+dataDisseminationManager,Property,dataDisseminationManager,"Person or organisation responsible for data dissemination.",,Person|Organization
+integrityMethods,DataProperty,integrityMethods,"Methods used to ensure data integrity.",,Text
+traceabilityMethods,DataProperty,traceabilityMethods,"Methods used to ensure data traceability.",,Text
+relatedPublications,Property,relatedPublications,"Publications related to the resource or dataset.",,URL
+hasCampaign,ObjectProperty,hasCampaign,"Links a resource to the associated Campaign.",,Campaign
+equipmentUsed,Property,equipmentUsed,"Equipment or instruments used during data acquisition.",,Thing
+equipmentFailure,DataProperty,equipmentFailure,"Description of equipment failures affecting the activity.",,Text
+climateConsidered,DataProperty,climateConsidered,"Indicates whether climatic conditions were considered.",,Text
+modelFailure,DataProperty,modelFailure,"Description of model failures or limitations.",,Text
+hasSatellite,ObjectProperty,hasSatellite,"Links a resource to the associated Satellite.",,Satellite
+hasMission,Property,hasMission,"Links a satellite or resource to its associated mission.",,Campaign
